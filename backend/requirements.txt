@@ -1,0 +1,20 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+sqlalchemy[asyncio]==2.0.36
+aiosqlite==0.20.0
+httpx==0.28.1
+groq==0.13.0
+python-multipart==0.0.20
+
+# Media / OCR extras. Only needed by providers that work with raw media files.
+# ffmpeg must be installed separately and on PATH - see README.
+Pillow==11.0.0
+pytesseract==0.3.13
+opencv-python-headless==4.10.0.84
+
+# Dev / test
+pytest==8.3.4
+pytest-asyncio==0.25.0
+anyio==4.7.0

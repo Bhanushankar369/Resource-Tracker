@@ -1,0 +1,3153 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ClassVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobStage",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeCard",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeCard",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCardRequest",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobAcceptedResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobStatusResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitReelRequest",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCardRequest",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobStage",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeCard",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "FrameExtractor",
+        "importPath": "app.pipeline.ocr",
+        "description": "app.pipeline.ocr",
+        "isExtraImport": true,
+        "detail": "app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "CardSummarizer",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "CardSummarizer",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_coerce",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_extractive_fallback",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_merge_source_metadata",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "build_prompt",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json",
+        "importPath": "app.pipeline.summarizer",
+        "description": "app.pipeline.summarizer",
+        "isExtraImport": true,
+        "detail": "app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "JobWorkspace",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "new_job_id",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "Janitor",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "Janitor",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "JobWorkspace",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "delete_tree",
+        "importPath": "app.pipeline.workspace",
+        "description": "app.pipeline.workspace",
+        "isExtraImport": true,
+        "detail": "app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreatorProfile",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "extract_hashtags",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderUnavailable",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderUnavailable",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreatorProfile",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderUnavailable",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "extract_hashtags",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreatorProfile",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "extract_hashtags",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "importPath": "app.providers.base",
+        "description": "app.providers.base",
+        "isExtraImport": true,
+        "detail": "app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ManualPasteProvider",
+        "importPath": "app.providers.manual_paste",
+        "description": "app.providers.manual_paste",
+        "isExtraImport": true,
+        "detail": "app.providers.manual_paste",
+        "documentation": {}
+    },
+    {
+        "label": "ManualPasteProvider",
+        "importPath": "app.providers.manual_paste",
+        "description": "app.providers.manual_paste",
+        "isExtraImport": true,
+        "detail": "app.providers.manual_paste",
+        "documentation": {}
+    },
+    {
+        "label": "ManualPasteProvider",
+        "importPath": "app.providers.manual_paste",
+        "description": "app.providers.manual_paste",
+        "isExtraImport": true,
+        "detail": "app.providers.manual_paste",
+        "documentation": {}
+    },
+    {
+        "label": "run_provider_chain",
+        "importPath": "app.providers.registry",
+        "description": "app.providers.registry",
+        "isExtraImport": true,
+        "detail": "app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "describe_providers",
+        "importPath": "app.providers.registry",
+        "description": "app.providers.registry",
+        "isExtraImport": true,
+        "detail": "app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "build_provider",
+        "importPath": "app.providers.registry",
+        "description": "app.providers.registry",
+        "isExtraImport": true,
+        "detail": "app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "run_provider_chain",
+        "importPath": "app.providers.registry",
+        "description": "app.providers.registry",
+        "isExtraImport": true,
+        "detail": "app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "TracebackType",
+        "importPath": "types",
+        "description": "types",
+        "isExtraImport": true,
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "abc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "abc",
+        "description": "abc",
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.error",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "OEmbedProvider",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "OEmbedProvider",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "OEmbedProvider",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "OEmbedProvider",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "extract_shortcode",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "title_from_caption",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "username_from_author_url",
+        "importPath": "app.providers.oembed",
+        "description": "app.providers.oembed",
+        "isExtraImport": true,
+        "detail": "app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "WhisperProvider",
+        "importPath": "app.providers.whisper",
+        "description": "app.providers.whisper",
+        "isExtraImport": true,
+        "detail": "app.providers.whisper",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Index",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_card_columns",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "JobOutcome",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "JobOutcome",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "JobRequest",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineRunner",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineRunner",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "JobRequest",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "app.pipeline.runner",
+        "description": "app.pipeline.runner",
+        "isExtraImport": true,
+        "detail": "app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "current_user_id",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthError",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleVerifier",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "current_user_id",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "cards",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "jobs",
+        "importPath": "app.services",
+        "description": "app.services",
+        "isExtraImport": true,
+        "detail": "app.services",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "ASGITransport",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "Runtime",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIterator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "pytest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest_asyncio",
+        "description": "pytest_asyncio",
+        "detail": "pytest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "registry",
+        "importPath": "app.providers",
+        "description": "app.providers",
+        "isExtraImport": true,
+        "detail": "app.providers",
+        "documentation": {}
+    },
+    {
+        "label": "FrameExtractor",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "class FrameExtractor:\n    \"\"\"Async facade so the pipeline does not block its event loop on ffmpeg/tesseract.\"\"\"\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n    async def extract(\n        self,\n        media_path: Path | None,\n        frames_dir: Path,\n        duration_seconds: float | None = None,\n    ) -> tuple[str, list[str]]:",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "is_ocr_available",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "def is_ocr_available(settings: Settings) -> bool:\n    if not settings.ocr_enabled:\n        return False\n    if shutil.which(settings.ffmpeg_binary) is None:\n        return False\n    try:\n        import cv2  # noqa: F401\n        import pytesseract  # noqa: F401\n    except ImportError:\n        return False",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "sample_frames",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "def sample_frames(\n    settings: Settings,\n    media_path: Path,\n    frames_dir: Path,\n    duration_seconds: float | None = None,\n) -> list[Path]:\n    \"\"\"Sample frames evenly across the clip with ffmpeg.\n    Returns the frames that were written. Raises nothing: a failed sample is reported\n    as an empty list so the caller can carry on without OCR.\n    \"\"\"",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "ocr_frames",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "def ocr_frames(frames: list[Path]) -> tuple[str, list[str]]:\n    \"\"\"Run tesseract over sampled frames.\n    Returns (combined_text, distinct_lines). Distinct lines are what get handed to\n    the LLM as candidate captions; the combined text is kept for debugging inside\n    the workspace only.\n    \"\"\"\n    if not frames:\n        return \"\", []\n    try:\n        import cv2",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# OCR over many near-identical frames returns the same words repeatedly. Collapse\n# them to distinct lines, preserving order.\n_NOISE = {\"\", \".\", \",\", \"!\", \"?\", \"'\", '\"', \"...\"}\ndef is_ocr_available(settings: Settings) -> bool:\n    if not settings.ocr_enabled:\n        return False\n    if shutil.which(settings.ffmpeg_binary) is None:\n        return False\n    try:",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "_NOISE",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.ocr",
+        "description": "backend.app.pipeline.ocr",
+        "peekOfCode": "_NOISE = {\"\", \".\", \",\", \"!\", \"?\", \"'\", '\"', \"...\"}\ndef is_ocr_available(settings: Settings) -> bool:\n    if not settings.ocr_enabled:\n        return False\n    if shutil.which(settings.ffmpeg_binary) is None:\n        return False\n    try:\n        import cv2  # noqa: F401\n        import pytesseract  # noqa: F401\n    except ImportError:",
+        "detail": "backend.app.pipeline.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "JobRequest",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.runner",
+        "description": "backend.app.pipeline.runner",
+        "peekOfCode": "class JobRequest:\n    job_id: str\n    card_id: str\n    user_id: str\n    reel_url: str\n    transcript_override: str | None = None\n@dataclass\nclass JobOutcome:\n    job_id: str\n    card_id: str",
+        "detail": "backend.app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "JobOutcome",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.runner",
+        "description": "backend.app.pipeline.runner",
+        "peekOfCode": "class JobOutcome:\n    job_id: str\n    card_id: str\n    status: str\n    stage: JobStage\n    card: KnowledgeCard | None = None\n    provider: str | None = None\n    error: str | None = None\n    notes: list[str] | None = None\ndef _notes(result: TranscriptResult, ocr_lines: list[str], size_bytes: int) -> list[str]:",
+        "detail": "backend.app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.runner",
+        "description": "backend.app.pipeline.runner",
+        "peekOfCode": "class Pipeline:\n    \"\"\"Runs one job end to end. Stateless; safe to share.\"\"\"\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n        self.extractor = FrameExtractor(settings)\n        self.summarizer = CardSummarizer(settings)\n    async def run(self, request: JobRequest) -> JobOutcome:\n        workspace = JobWorkspace(self.settings, request.job_id)\n        try:\n            async with workspace:",
+        "detail": "backend.app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineRunner",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.runner",
+        "description": "backend.app.pipeline.runner",
+        "peekOfCode": "class PipelineRunner:\n    \"\"\"Bounded in-process worker pool.\n    Deliberately simple. A single `uvicorn` process with a handful of threads is\n    enough for an MVP and avoids a Redis/Celery dependency. To scale, reimplement\n    `submit` to push onto a real queue - nothing else in the codebase changes, because\n    the pipeline is a pure function of a JobRequest.\n    \"\"\"\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n        self._semaphore = asyncio.Semaphore(max(1, settings.job_worker_threads))",
+        "detail": "backend.app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.runner",
+        "description": "backend.app.pipeline.runner",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@dataclass\nclass JobRequest:\n    job_id: str\n    card_id: str\n    user_id: str\n    reel_url: str\n    transcript_override: str | None = None\n@dataclass\nclass JobOutcome:",
+        "detail": "backend.app.pipeline.runner",
+        "documentation": {}
+    },
+    {
+        "label": "CardSummarizer",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "class CardSummarizer:\n    \"\"\"Wraps the Groq call with retries, validation, and a non-LLM fallback.\"\"\"\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n    def is_configured(self) -> bool:\n        return self.settings.llm_configured\n    async def summarize(self, result: TranscriptResult) -> KnowledgeCard:\n        if not self.is_configured():\n            logger.info(\"GROQ_API_KEY is not set, using the extractive fallback\")\n            return _merge_source_metadata(_extractive_fallback(result), result)",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "build_prompt",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "def build_prompt(result: TranscriptResult, max_chars: int = 12_000) -> str:\n    return _USER_TEMPLATE.format(content=_truncate(result.to_prompt_block(), max_chars))\ndef extract_json(raw: str) -> dict[str, Any]:\n    \"\"\"Pull a JSON object out of a model response.\n    Models occasionally wrap JSON in prose or a code fence even when told not to, and\n    losing the whole card to that would be annoying.\n    \"\"\"\n    text = raw.strip()\n    fence = re.search(r\"```(?:json)?\\s*(.+?)```\", text, re.DOTALL)\n    if fence:",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "def extract_json(raw: str) -> dict[str, Any]:\n    \"\"\"Pull a JSON object out of a model response.\n    Models occasionally wrap JSON in prose or a code fence even when told not to, and\n    losing the whole card to that would be annoying.\n    \"\"\"\n    text = raw.strip()\n    fence = re.search(r\"```(?:json)?\\s*(.+?)```\", text, re.DOTALL)\n    if fence:\n        text = fence.group(1).strip()\n    start = text.find(\"{\")",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n_SYSTEM_PROMPT = (\n    \"You turn short-form social video into a single study card. \"\n    \"You never invent facts. If the source material does not contain something, \"\n    \"you leave it out rather than guessing.\"\n)\n_USER_TEMPLATE = \"\"\"Below is everything that could be extracted from an Instagram reel.\n{content}\nWrite a knowledge card as strict JSON with exactly these keys:\n  \"title\"          - at most 8 words, no trailing punctuation",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "_SYSTEM_PROMPT = (\n    \"You turn short-form social video into a single study card. \"\n    \"You never invent facts. If the source material does not contain something, \"\n    \"you leave it out rather than guessing.\"\n)\n_USER_TEMPLATE = \"\"\"Below is everything that could be extracted from an Instagram reel.\n{content}\nWrite a knowledge card as strict JSON with exactly these keys:\n  \"title\"          - at most 8 words, no trailing punctuation\n  \"summary\"        - 2-4 sentences, the core idea of the reel",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_USER_TEMPLATE",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "_USER_TEMPLATE = \"\"\"Below is everything that could be extracted from an Instagram reel.\n{content}\nWrite a knowledge card as strict JSON with exactly these keys:\n  \"title\"          - at most 8 words, no trailing punctuation\n  \"summary\"        - 2-4 sentences, the core idea of the reel\n  \"description\"    - 1-2 short sentences that a reader could skim before opening the\n                     card; a plain overview, not the full summary\n  \"key_insights\"   - 2-5 short factual points, each under 20 words\n  \"action_items\"   - 0-4 concrete things the viewer could actually do\n  \"topics\"         - 1-5 single-word or short lowercase tags",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_PLACEHOLDER_TITLES",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.summarizer",
+        "description": "backend.app.pipeline.summarizer",
+        "peekOfCode": "_PLACEHOLDER_TITLES = {\"saved reel\", \"untitled\", \"instagram reel\"}\ndef _merge_source_metadata(card: KnowledgeCard, result: TranscriptResult) -> KnowledgeCard:\n    \"\"\"Enriches a card with what the provider read directly: hashtags + creator.\n    These are deterministic facts about the reel (its public caption and profile), so\n    they come from the provider rather than the LLM, keeping the card faithful even\n    when the model drops or rewrites them. The LLM's own hashtag guess is unioned in\n    and capped at the same limit.\n    \"\"\"\n    cleaned: list[str] = []\n    seen: set[str] = set()",
+        "detail": "backend.app.pipeline.summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "JobWorkspace",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.workspace",
+        "description": "backend.app.pipeline.workspace",
+        "peekOfCode": "class JobWorkspace:\n    \"\"\"A private directory for one job, deleted on exit.\n    Layout::\n        <workspace_dir>/<job_id>/\n            input.json\n            media/\n            frames/\n            ocr/\n    Use it as an async context manager. Never hold on to a path after the `async\n    with` block: it may already be gone.",
+        "detail": "backend.app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "Janitor",
+        "kind": 6,
+        "importPath": "backend.app.pipeline.workspace",
+        "description": "backend.app.pipeline.workspace",
+        "peekOfCode": "class Janitor:\n    \"\"\"Periodic sweep of the workspace root.\n    Deletes any job directory whose mtime is older than the configured max age. A\n    directory being actively written keeps a recent mtime, so a long-running job is\n    not pulled out from under itself.\n    \"\"\"\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n    def sweep(self) -> list[str]:\n        root = self.settings.workspace_dir",
+        "detail": "backend.app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "delete_tree",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.workspace",
+        "description": "backend.app.pipeline.workspace",
+        "peekOfCode": "def delete_tree(path: Path) -> bool:\n    \"\"\"Delete a file or directory. Never raises. Returns whether anything went away.\n    Read-only files (extracted frames can inherit odd permissions) are made writable\n    first, otherwise the sweep silently leaves them behind and we would leak data\n    while logging success.\n    \"\"\"\n    try:\n        if path.is_symlink() or path.is_file():\n            path.unlink(missing_ok=True)\n            return True",
+        "detail": "backend.app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "new_job_id",
+        "kind": 2,
+        "importPath": "backend.app.pipeline.workspace",
+        "description": "backend.app.pipeline.workspace",
+        "peekOfCode": "def new_job_id() -> str:\n    return uuid.uuid4().hex",
+        "detail": "backend.app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.pipeline.workspace",
+        "description": "backend.app.pipeline.workspace",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef delete_tree(path: Path) -> bool:\n    \"\"\"Delete a file or directory. Never raises. Returns whether anything went away.\n    Read-only files (extracted frames can inherit odd permissions) are made writable\n    first, otherwise the sweep silently leaves them behind and we would leak data\n    while logging success.\n    \"\"\"\n    try:\n        if path.is_symlink() or path.is_file():\n            path.unlink(missing_ok=True)",
+        "detail": "backend.app.pipeline.workspace",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderError",
+        "kind": 6,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "class ProviderError(RuntimeError):\n    \"\"\"The provider ran but could not produce a transcript for this reel.\"\"\"\nclass ProviderUnavailable(ProviderError):\n    \"\"\"The provider is not configured or its dependencies are missing.\n    The registry skips unavailable providers instead of failing the job.\n    \"\"\"\n@dataclass\nclass CreatorProfile:\n    \"\"\"Public profile details of the reel's creator, when a provider can read them.\"\"\"\n    name: str | None = None",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderUnavailable",
+        "kind": 6,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "class ProviderUnavailable(ProviderError):\n    \"\"\"The provider is not configured or its dependencies are missing.\n    The registry skips unavailable providers instead of failing the job.\n    \"\"\"\n@dataclass\nclass CreatorProfile:\n    \"\"\"Public profile details of the reel's creator, when a provider can read them.\"\"\"\n    name: str | None = None\n    username: str | None = None\n    bio: str | None = None",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreatorProfile",
+        "kind": 6,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "class CreatorProfile:\n    \"\"\"Public profile details of the reel's creator, when a provider can read them.\"\"\"\n    name: str | None = None\n    username: str | None = None\n    bio: str | None = None\n    @property\n    def display_name(self) -> str:\n        return self.name or self.username or \"\"\n_HASHTAG = re.compile(r\"#([A-Za-z0-9_]+)\")\ndef extract_hashtags(*texts: str) -> list[str]:",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptResult",
+        "kind": 6,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "class TranscriptResult:\n    \"\"\"Normalised output of a provider.\n    Fields map onto what the LLM prompt actually consumes:\n      * transcript  - spoken words, if the provider does speech-to-text\n      * captions    - on-screen / burned-in captions, a list of distinct strings\n      * metadata    - title, author, description, duration, anything public\n      * ocr_text    - text read off sampled video frames by the extraction step\n      * hashtags    - public hashtags from the caption, without the '#'\n      * creator     - the creator's name/username/bio, when publicly readable\n      * media_path  - a local copy of the media, if the provider downloaded any.",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "TranscriptProvider",
+        "kind": 6,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "class TranscriptProvider(abc.ABC):\n    \"\"\"Interface every transcript source implements.\"\"\"\n    #: Stable identifier used in .env and in the database.\n    name: ClassVar[str] = \"abstract\"\n    #: Shown in GET /v1/health so the app's Settings tab can list options.\n    description: ClassVar[str] = \"\"\n    @abc.abstractmethod\n    def is_available(self) -> bool:\n        \"\"\"Whether this provider is configured and its dependencies are importable.\n        Called before every job, so it must be cheap and must not raise.",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "extract_hashtags",
+        "kind": 2,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "def extract_hashtags(*texts: str) -> list[str]:\n    \"\"\"Collects the hashtags mentioned across text blocks, deduped, order kept.\n    Hashtags are returned without the leading '#'. The UI re-adds the marker for\n    display, so storage stays symmetric with what the LLM is asked to produce.\n    Instagram treats fragments case-insensitively, so #Focus and #focus are the same\n    tag; the first casing seen is kept.\n    \"\"\"\n    seen: set[str] = set()\n    collected: list[str] = []\n    for text in texts:",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "_HASHTAG",
+        "kind": 5,
+        "importPath": "backend.app.providers.base",
+        "description": "backend.app.providers.base",
+        "peekOfCode": "_HASHTAG = re.compile(r\"#([A-Za-z0-9_]+)\")\ndef extract_hashtags(*texts: str) -> list[str]:\n    \"\"\"Collects the hashtags mentioned across text blocks, deduped, order kept.\n    Hashtags are returned without the leading '#'. The UI re-adds the marker for\n    display, so storage stays symmetric with what the LLM is asked to produce.\n    Instagram treats fragments case-insensitively, so #Focus and #focus are the same\n    tag; the first casing seen is kept.\n    \"\"\"\n    seen: set[str] = set()\n    collected: list[str] = []",
+        "detail": "backend.app.providers.base",
+        "documentation": {}
+    },
+    {
+        "label": "ManualPasteProvider",
+        "kind": 6,
+        "importPath": "backend.app.providers.manual_paste",
+        "description": "backend.app.providers.manual_paste",
+        "peekOfCode": "class ManualPasteProvider(TranscriptProvider):\n    name: ClassVar[str] = \"manual\"\n    description: ClassVar[str] = \"Transcript pasted by the user in the app\"\n    def __init__(self, override: str = \"\") -> None:\n        self._override = override\n    def is_available(self) -> bool:\n        return True\n    async def fetch(self, reel_url: str, workspace: Path) -> TranscriptResult:\n        text = self._override.strip()\n        if not text:",
+        "detail": "backend.app.providers.manual_paste",
+        "documentation": {}
+    },
+    {
+        "label": "OEmbedProvider",
+        "kind": 6,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "class OEmbedProvider(TranscriptProvider):\n    name: ClassVar[str] = \"oembed\"\n    description: ClassVar[str] = \"Public reel metadata (caption + creator) via Meta Graph oEmbed\"\n    def __init__(\n        self,\n        timeout: float | None = None,\n        settings: Settings | None = None,\n        access_token: str | None = None,\n    ) -> None:\n        # settings must be optional: providers/registry.py builds every provider with",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "extract_shortcode",
+        "kind": 2,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "def extract_shortcode(reel_url: str) -> str | None:\n    match = _SHORTCODE.search(urllib.parse.urlparse(reel_url).path)\n    return match.group(1) if match else None\ndef _fetch(url: str, timeout: float, headers: dict[str, str] | None = None) -> bytes:\n    request = urllib.request.Request(url, headers={\"User-Agent\": _USER_AGENT, **(headers or {})})\n    opener = urllib.request.build_opener()  # no redirect to a different host is enforced\n    try:\n        with opener.open(request, timeout=timeout) as response:\n            return response.read()\n    except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout, TimeoutError) as exc:",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse_host",
+        "kind": 2,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "def urlparse_host(url: str) -> str:\n    return urllib.parse.urlparse(url).netloc or url\ndef username_from_author_url(author_url: str | None) -> str | None:\n    \"\"\"`https://www.instagram.com/someone/` -> `someone`.\n    The Graph oEmbed response carries the creator's profile URL but no separate\n    username field, and the card wants the handle to show the reel's author.\n    \"\"\"\n    if not author_url:\n        return None\n    handle = urllib.parse.urlparse(author_url).path.strip(\"/\").split(\"/\")[0]",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "username_from_author_url",
+        "kind": 2,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "def username_from_author_url(author_url: str | None) -> str | None:\n    \"\"\"`https://www.instagram.com/someone/` -> `someone`.\n    The Graph oEmbed response carries the creator's profile URL but no separate\n    username field, and the card wants the handle to show the reel's author.\n    \"\"\"\n    if not author_url:\n        return None\n    handle = urllib.parse.urlparse(author_url).path.strip(\"/\").split(\"/\")[0]\n    return handle or None\ndef title_from_caption(caption: str) -> str | None:",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "title_from_caption",
+        "kind": 2,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "def title_from_caption(caption: str) -> str | None:\n    \"\"\"A short, non-empty label derived from the caption.\n    Graph oEmbed puts the caption in `title` and nothing else, and the pipeline wants\n    both: the full caption as the card's description, and something short enough to\n    put on a list row. Falls back to the caption itself when it is one short line.\n    \"\"\"\n    first_line = next((line.strip() for line in (caption or \"\").splitlines() if line.strip()), \"\")\n    if not first_line:\n        return None\n    words = first_line.split()",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "_USER_AGENT",
+        "kind": 5,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "_USER_AGENT = (\n    \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 \"\n    \"(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\"\n)\n_SHORTCODE = re.compile(r\"/(?:reel|reels|p|tv)/([A-Za-z0-9_-]+)\")\n#: How many words of the caption become the card title.\n_TITLE_WORDS = 8\n#: Meta's error codes worth naming in the failure message. The rest are opaque.\n_ERROR_HINTS = {\n    100: \"the reel does not exist or is private\",",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "_SHORTCODE",
+        "kind": 5,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "_SHORTCODE = re.compile(r\"/(?:reel|reels|p|tv)/([A-Za-z0-9_-]+)\")\n#: How many words of the caption become the card title.\n_TITLE_WORDS = 8\n#: Meta's error codes worth naming in the failure message. The rest are opaque.\n_ERROR_HINTS = {\n    100: \"the reel does not exist or is private\",\n    190: \"INSTAGRAM_ACCESS_TOKEN is invalid or has expired\",\n    200: \"the app is not permitted to read this reel\",\n    803: \"the app cannot read this reel until it is live and in review\",\n}",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "_TITLE_WORDS",
+        "kind": 5,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "_TITLE_WORDS = 8\n#: Meta's error codes worth naming in the failure message. The rest are opaque.\n_ERROR_HINTS = {\n    100: \"the reel does not exist or is private\",\n    190: \"INSTAGRAM_ACCESS_TOKEN is invalid or has expired\",\n    200: \"the app is not permitted to read this reel\",\n    803: \"the app cannot read this reel until it is live and in review\",\n}\ndef extract_shortcode(reel_url: str) -> str | None:\n    match = _SHORTCODE.search(urllib.parse.urlparse(reel_url).path)",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "_ERROR_HINTS",
+        "kind": 5,
+        "importPath": "backend.app.providers.oembed",
+        "description": "backend.app.providers.oembed",
+        "peekOfCode": "_ERROR_HINTS = {\n    100: \"the reel does not exist or is private\",\n    190: \"INSTAGRAM_ACCESS_TOKEN is invalid or has expired\",\n    200: \"the app is not permitted to read this reel\",\n    803: \"the app cannot read this reel until it is live and in review\",\n}\ndef extract_shortcode(reel_url: str) -> str | None:\n    match = _SHORTCODE.search(urllib.parse.urlparse(reel_url).path)\n    return match.group(1) if match else None\ndef _fetch(url: str, timeout: float, headers: dict[str, str] | None = None) -> bytes:",
+        "detail": "backend.app.providers.oembed",
+        "documentation": {}
+    },
+    {
+        "label": "available_provider_names",
+        "kind": 2,
+        "importPath": "backend.app.providers.registry",
+        "description": "backend.app.providers.registry",
+        "peekOfCode": "def available_provider_names() -> list[str]:\n    return sorted(_PROVIDER_TYPES)\ndef build_provider(name: str) -> TranscriptProvider:\n    \"\"\"Instantiate a provider by name.\n    Raises:\n        KeyError: unknown provider name. This is a configuration error and should\n            surface loudly at startup rather than silently degrading.\n    \"\"\"\n    try:\n        provider_type = _PROVIDER_TYPES[name]",
+        "detail": "backend.app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "build_provider",
+        "kind": 2,
+        "importPath": "backend.app.providers.registry",
+        "description": "backend.app.providers.registry",
+        "peekOfCode": "def build_provider(name: str) -> TranscriptProvider:\n    \"\"\"Instantiate a provider by name.\n    Raises:\n        KeyError: unknown provider name. This is a configuration error and should\n            surface loudly at startup rather than silently degrading.\n    \"\"\"\n    try:\n        provider_type = _PROVIDER_TYPES[name]\n    except KeyError as exc:\n        raise KeyError(",
+        "detail": "backend.app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "describe_providers",
+        "kind": 2,
+        "importPath": "backend.app.providers.registry",
+        "description": "backend.app.providers.registry",
+        "peekOfCode": "def describe_providers() -> list[dict[str, object]]:\n    \"\"\"Health payload for every known provider, including its availability.\"\"\"\n    described: list[dict[str, object]] = []\n    for name in available_provider_names():\n        try:\n            provider = build_provider(name)\n        except Exception as exc:  # pragma: no cover - defensive\n            described.append({\"name\": name, \"available\": False, \"description\": str(exc)})\n            continue\n        try:",
+        "detail": "backend.app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.providers.registry",
+        "description": "backend.app.providers.registry",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n_PROVIDER_TYPES: dict[str, type[TranscriptProvider]] = {\n    ManualPasteProvider.name: ManualPasteProvider,\n    OEmbedProvider.name: OEmbedProvider,\n    WhisperProvider.name: WhisperProvider,\n}\ndef available_provider_names() -> list[str]:\n    return sorted(_PROVIDER_TYPES)\ndef build_provider(name: str) -> TranscriptProvider:\n    \"\"\"Instantiate a provider by name.",
+        "detail": "backend.app.providers.registry",
+        "documentation": {}
+    },
+    {
+        "label": "WhisperProvider",
+        "kind": 6,
+        "importPath": "backend.app.providers.whisper",
+        "description": "backend.app.providers.whisper",
+        "peekOfCode": "class WhisperProvider(TranscriptProvider):\n    name: ClassVar[str] = \"whisper\"\n    description: ClassVar[str] = \"Speech-to-text over reel audio (needs a resolvable media URL)\"\n    def __init__(self, settings: Settings | None = None) -> None:\n        # settings must be optional: providers/registry.py builds every provider with\n        # no arguments so it can report availability in GET /v1/health.\n        self.settings = settings or get_settings()\n        self._oembed = OEmbedProvider(self.settings.oembed_timeout_seconds)\n    def is_available(self) -> bool:\n        return bool(self.settings.effective_whisper_key)",
+        "detail": "backend.app.providers.whisper",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.providers.whisper",
+        "description": "backend.app.providers.whisper",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass WhisperProvider(TranscriptProvider):\n    name: ClassVar[str] = \"whisper\"\n    description: ClassVar[str] = \"Speech-to-text over reel audio (needs a resolvable media URL)\"\n    def __init__(self, settings: Settings | None = None) -> None:\n        # settings must be optional: providers/registry.py builds every provider with\n        # no arguments so it can report availability in GET /v1/health.\n        self.settings = settings or get_settings()\n        self._oembed = OEmbedProvider(self.settings.oembed_timeout_seconds)\n    def is_available(self) -> bool:",
+        "detail": "backend.app.providers.whisper",
+        "documentation": {}
+    },
+    {
+        "label": "to_response",
+        "kind": 2,
+        "importPath": "backend.app.services.cards",
+        "description": "backend.app.services.cards",
+        "peekOfCode": "def to_response(card: Card) -> CardResponse:\n    return CardResponse(\n        id=card.id,\n        reel_url=card.reel_url,\n        title=card.title,\n        summary=card.summary,\n        description=card.description,\n        hashtags=_loads(card.hashtags),\n        creator_name=card.creator_name,\n        creator_username=card.creator_username,",
+        "detail": "backend.app.services.cards",
+        "documentation": {}
+    },
+    {
+        "label": "job_status",
+        "kind": 2,
+        "importPath": "backend.app.services.cards",
+        "description": "backend.app.services.cards",
+        "peekOfCode": "def job_status(job: Job) -> str:\n    \"\"\"Normalise a job's lifecycle state for the API.\n    The `Job.stage` enum records which step was reached, which is not the same thing\n    as whether the job succeeded - a job that reached DONE and then failed\n    persistence reports FAILED here. Derived rather than stored so the two can never\n    drift apart.\n    \"\"\"\n    if job.finished_at is None:\n        return \"queued\"\n    return \"failed\" if job.error else \"succeeded\"",
+        "detail": "backend.app.services.cards",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.services.cards",
+        "description": "backend.app.services.cards",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef _loads(raw: str | None) -> list[str]:\n    if not raw:\n        return []\n    try:\n        value = json.loads(raw)\n    except json.JSONDecodeError:\n        logger.warning(\"Discarding unparseable list column: %r\", raw[:80])\n        return []\n    return [str(item) for item in value] if isinstance(value, list) else []",
+        "detail": "backend.app.services.cards",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.services.jobs",
+        "description": "backend.app.services.jobs",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def complete(session: AsyncSession, outcome: JobOutcome) -> Card | None:\n    \"\"\"Write a finished job's outcome onto its card. Caller commits.\"\"\"\n    job = await session.get(Job, outcome.job_id)\n    if job is None:\n        logger.error(\"Job %s vanished before it could be persisted\", outcome.job_id)\n        return None\n    card = await session.get(Card, outcome.card_id)\n    if card is None:\n        logger.error(\"Card %s vanished before its job could be persisted\", outcome.card_id)",
+        "detail": "backend.app.services.jobs",
+        "documentation": {}
+    },
+    {
+        "label": "Runtime",
+        "kind": 6,
+        "importPath": "backend.app.api",
+        "description": "backend.app.api",
+        "peekOfCode": "class Runtime:\n    \"\"\"Long-lived objects created once in the lifespan and shared by all requests.\"\"\"\n    settings: Settings\n    session_factory: async_sessionmaker[AsyncSession]\n    runner: PipelineRunner\n    async def persist(self, outcome: JobOutcome) -> None:\n        \"\"\"Called on the pipeline thread once a job finishes.\"\"\"\n        async with self.session_factory() as session:\n            await job_service.complete_async(session, outcome)\ndef get_runtime(request: Request) -> Runtime:",
+        "detail": "backend.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_runtime",
+        "kind": 2,
+        "importPath": "backend.app.api",
+        "description": "backend.app.api",
+        "peekOfCode": "def get_runtime(request: Request) -> Runtime:\n    runtime: Runtime | None = getattr(request.app.state, \"runtime\", None)\n    if runtime is None:  # pragma: no cover - only if lifespan did not run\n        raise HTTPException(status_code=503, detail=\"Server is still starting\")\n    return runtime\nasync def get_db(runtime: Runtime = Depends(get_runtime)) -> AsyncSession:\n    session = runtime.session_factory()\n    try:\n        yield session\n    finally:",
+        "detail": "backend.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.api",
+        "description": "backend.app.api",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nrouter = APIRouter(prefix=\"/v1\")\n@dataclass\nclass Runtime:\n    \"\"\"Long-lived objects created once in the lifespan and shared by all requests.\"\"\"\n    settings: Settings\n    session_factory: async_sessionmaker[AsyncSession]\n    runner: PipelineRunner\n    async def persist(self, outcome: JobOutcome) -> None:\n        \"\"\"Called on the pipeline thread once a job finishes.\"\"\"",
+        "detail": "backend.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api",
+        "description": "backend.app.api",
+        "peekOfCode": "router = APIRouter(prefix=\"/v1\")\n@dataclass\nclass Runtime:\n    \"\"\"Long-lived objects created once in the lifespan and shared by all requests.\"\"\"\n    settings: Settings\n    session_factory: async_sessionmaker[AsyncSession]\n    runner: PipelineRunner\n    async def persist(self, outcome: JobOutcome) -> None:\n        \"\"\"Called on the pipeline thread once a job finishes.\"\"\"\n        async with self.session_factory() as session:",
+        "detail": "backend.app.api",
+        "documentation": {}
+    },
+    {
+        "label": "AuthError",
+        "kind": 6,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "class AuthError(HTTPException):\n    def __init__(self, detail: str = \"Not authenticated\") -> None:\n        super().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=detail)\ndef extract_bearer(\n    request: Request,\n    credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),\n) -> str:\n    \"\"\"Pull the bearer token off the request.\n    Annotated as a bare `Request` on purpose: FastAPI resolves that type itself, and\n    `Request | None` would be mistaken for a body field.",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleVerifier",
+        "kind": 6,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "class GoogleVerifier:\n    def __init__(self, settings: Settings) -> None:\n        self.settings = settings\n    def is_configured(self) -> bool:\n        return bool(self.settings.google_client_id.strip())\n    async def verify(self, token: str, nonce: str | None = None) -> dict:\n        if not self.is_configured():\n            raise AuthError(\"Server is missing GOOGLE_CLIENT_ID\")\n        try:\n            from google.oauth2 import id_token",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "extract_bearer",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def extract_bearer(\n    request: Request,\n    credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),\n) -> str:\n    \"\"\"Pull the bearer token off the request.\n    Annotated as a bare `Request` on purpose: FastAPI resolves that type itself, and\n    `Request | None` would be mistaken for a body field.\n    \"\"\"\n    if credentials is not None and credentials.scheme.lower() == \"bearer\":\n        return credentials.credentials.strip()",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_verifier",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def get_verifier(settings: Settings = Depends(get_settings)) -> GoogleVerifier:\n    global _verifier\n    if _verifier is None:\n        _verifier = GoogleVerifier(settings)\n    return _verifier\nasync def current_user_id(\n    request: Request,\n    token: str = Depends(extract_bearer),\n    verifier: GoogleVerifier = Depends(get_verifier),\n    settings: Settings = Depends(get_settings),",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n_bearer = HTTPBearer(auto_error=False)\n_ALLOWED_ISSUERS = {\"accounts.google.com\", \"https://accounts.google.com\"}\nclass AuthError(HTTPException):\n    def __init__(self, detail: str = \"Not authenticated\") -> None:\n        super().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=detail)\ndef extract_bearer(\n    request: Request,\n    credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),\n) -> str:",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "_bearer",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "_bearer = HTTPBearer(auto_error=False)\n_ALLOWED_ISSUERS = {\"accounts.google.com\", \"https://accounts.google.com\"}\nclass AuthError(HTTPException):\n    def __init__(self, detail: str = \"Not authenticated\") -> None:\n        super().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=detail)\ndef extract_bearer(\n    request: Request,\n    credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),\n) -> str:\n    \"\"\"Pull the bearer token off the request.",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "_ALLOWED_ISSUERS",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "_ALLOWED_ISSUERS = {\"accounts.google.com\", \"https://accounts.google.com\"}\nclass AuthError(HTTPException):\n    def __init__(self, detail: str = \"Not authenticated\") -> None:\n        super().__init__(status_code=status.HTTP_401_UNAUTHORIZED, detail=detail)\ndef extract_bearer(\n    request: Request,\n    credentials: HTTPAuthorizationCredentials | None = Depends(_bearer),\n) -> str:\n    \"\"\"Pull the bearer token off the request.\n    Annotated as a bare `Request` on purpose: FastAPI resolves that type itself, and",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=(REPO_ROOT / \".env\", BACKEND_DIR / \".env\"),\n        env_file_encoding=\"utf-8\",\n        extra=\"ignore\",\n    )\n    # ---- general ---------------------------------------------------------\n    app_name: str = \"ResourceTracker API\"\n    version: str = \"0.1.0\"\n    env: str = Field(default=\"dev\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "def get_settings() -> Settings:\n    settings = Settings()\n    settings.ensure_directories()\n    return settings",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "BACKEND_DIR = Path(__file__).resolve().parent.parent\nREPO_ROOT = BACKEND_DIR.parent\nclass Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=(REPO_ROOT / \".env\", BACKEND_DIR / \".env\"),\n        env_file_encoding=\"utf-8\",\n        extra=\"ignore\",\n    )\n    # ---- general ---------------------------------------------------------\n    app_name: str = \"ResourceTracker API\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_ROOT",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "REPO_ROOT = BACKEND_DIR.parent\nclass Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=(REPO_ROOT / \".env\", BACKEND_DIR / \".env\"),\n        env_file_encoding=\"utf-8\",\n        extra=\"ignore\",\n    )\n    # ---- general ---------------------------------------------------------\n    app_name: str = \"ResourceTracker API\"\n    version: str = \"0.1.0\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "backend.app.db",
+        "description": "backend.app.db",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Card(Base):\n    __tablename__ = \"cards\"\n    # The id is supplied by the client so the phone can insert locally and reconcile\n    # later. It is a UUID string, not a server sequence, for that reason.\n    id: Mapped[str] = mapped_column(String(64), primary_key=True)\n    user_id: Mapped[str] = mapped_column(String(128), nullable=False, index=True)\n    reel_url: Mapped[str] = mapped_column(String(2048), nullable=False)\n    title: Mapped[str] = mapped_column(String(200), nullable=False, default=\"\")",
+        "detail": "backend.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "backend.app.db",
+        "description": "backend.app.db",
+        "peekOfCode": "class Card(Base):\n    __tablename__ = \"cards\"\n    # The id is supplied by the client so the phone can insert locally and reconcile\n    # later. It is a UUID string, not a server sequence, for that reason.\n    id: Mapped[str] = mapped_column(String(64), primary_key=True)\n    user_id: Mapped[str] = mapped_column(String(128), nullable=False, index=True)\n    reel_url: Mapped[str] = mapped_column(String(2048), nullable=False)\n    title: Mapped[str] = mapped_column(String(200), nullable=False, default=\"\")\n    summary: Mapped[str] = mapped_column(Text, nullable=False, default=\"\")\n    description: Mapped[str] = mapped_column(String(400), nullable=False, default=\"\")",
+        "detail": "backend.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Job",
+        "kind": 6,
+        "importPath": "backend.app.db",
+        "description": "backend.app.db",
+        "peekOfCode": "class Job(Base):\n    __tablename__ = \"jobs\"\n    id: Mapped[str] = mapped_column(String(64), primary_key=True)\n    card_id: Mapped[str] = mapped_column(ForeignKey(\"cards.id\", ondelete=\"CASCADE\"), index=True)\n    user_id: Mapped[str] = mapped_column(String(128), nullable=False, index=True)\n    stage: Mapped[JobStage] = mapped_column(\n        SAEnum(JobStage, native_enum=False, length=16),\n        nullable=False,\n        default=JobStage.QUEUED,\n    )",
+        "detail": "backend.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "utcnow",
+        "kind": 2,
+        "importPath": "backend.app.db",
+        "description": "backend.app.db",
+        "peekOfCode": "def utcnow() -> datetime:\n    return datetime.now(timezone.utc)\ndef ensure_card_columns(sync_connection) -> None:\n    \"\"\"Idempotently adds columns introduced after the DB was first created.\n    New features (description, hashtags, creator profile) add columns to the cards\n    table, but `create_all` only creates missing *tables*, never missing columns.\n    This cheaply ALTERs the dev SQLite DB forward. Alemaic-style versioned\n    migrations are deliberately deferred until the project has a real deployment.\n    \"\"\"\n    from sqlalchemy import inspect as sqlalchemy_inspect",
+        "detail": "backend.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_card_columns",
+        "kind": 2,
+        "importPath": "backend.app.db",
+        "description": "backend.app.db",
+        "peekOfCode": "def ensure_card_columns(sync_connection) -> None:\n    \"\"\"Idempotently adds columns introduced after the DB was first created.\n    New features (description, hashtags, creator profile) add columns to the cards\n    table, but `create_all` only creates missing *tables*, never missing columns.\n    This cheaply ALTERs the dev SQLite DB forward. Alemaic-style versioned\n    migrations are deliberately deferred until the project has a real deployment.\n    \"\"\"\n    from sqlalchemy import inspect as sqlalchemy_inspect\n    columns = {\n        column[\"name\"]: column for column in sqlalchemy_inspect(sync_connection).get_columns(\"cards\")",
+        "detail": "backend.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def create_app() -> FastAPI:\n    settings = get_settings()\n    app = FastAPI(\n        title=settings.app_name,\n        version=settings.version,\n        lifespan=lifespan,\n        docs_url=\"/docs\",\n        redoc_url=None,\n    )\n    origins = settings.cors_origin_list",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "logger = logging.getLogger(\"resourcetracker\")\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    settings = get_settings()\n    settings.ensure_directories()\n    if not settings.llm_configured:\n        logger.warning(\n            \"GROQ_API_KEY is not set. Cards will use the deterministic extractive \"\n            \"fallback instead of a real LLM summary.\"\n        )",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":  # pragma: no cover\n    import uvicorn\n    uvicorn.run(\n        \"app.main:app\",\n        host=os.getenv(\"HOST\", \"0.0.0.0\"),\n        port=int(os.getenv(\"PORT\", \"8000\")),\n        reload=os.getenv(\"RELOAD\", \"\").lower() in (\"1\", \"true\", \"yes\"),\n    )",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "CardStatus",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class CardStatus(str, enum.Enum):\n    \"\"\"Mirrors com.resourcetracker.domain.model.CardStatus on the client.\"\"\"\n    QUEUED = \"QUEUED\"\n    PROCESSING = \"PROCESSING\"\n    PENDING = \"PENDING\"\n    REVIEWED = \"REVIEWED\"\n    SNOOZED = \"SNOOZED\"\n    FAILED = \"FAILED\"\n    DELETED = \"DELETED\"\nclass JobStage(str, enum.Enum):",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobStage",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class JobStage(str, enum.Enum):\n    QUEUED = \"QUEUED\"\n    FETCHING = \"FETCHING\"\n    EXTRACTING = \"EXTRACTING\"\n    OCR = \"OCR\"\n    SUMMARISING = \"SUMMARISING\"\n    DONE = \"DONE\"\n    FAILED = \"FAILED\"\nclass KnowledgeCard(BaseModel):\n    \"\"\"The durable output. This is what the phone stores and shows.\"\"\"",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeCard",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class KnowledgeCard(BaseModel):\n    \"\"\"The durable output. This is what the phone stores and shows.\"\"\"\n    title: str = Field(min_length=1, max_length=200)\n    summary: str = Field(min_length=1, max_length=4000)\n    description: str = Field(default=\"\", max_length=400)\n    hashtags: list[str] = Field(default_factory=list, max_length=20)\n    creator_name: str | None = Field(default=None, max_length=200)\n    creator_username: str | None = Field(default=None, max_length=200)\n    creator_bio: str | None = Field(default=None, max_length=400)\n    thumbnail_url: str | None = Field(default=None, max_length=2048)",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "CardResponse",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class CardResponse(BaseModel):\n    id: str\n    reel_url: str\n    title: str\n    summary: str\n    description: str = Field(default=\"\")\n    hashtags: list[str] = Field(default_factory=list)\n    creator_name: str | None = None\n    creator_username: str | None = None\n    creator_bio: str | None = None",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitReelRequest",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class SubmitReelRequest(BaseModel):\n    \"\"\"POST /v1/reels body.\n    client_card_id is generated by the app so the row can be created locally before\n    any network round trip. The server honours it, which avoids a re-key dance when\n    the job finishes.\n    \"\"\"\n    client_card_id: str = Field(min_length=1, max_length=64)\n    reel_url: str = Field(min_length=4, max_length=2048)\n    note: str | None = Field(default=None, max_length=2000)\n    transcript_override: str | None = Field(",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobAcceptedResponse",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class JobAcceptedResponse(BaseModel):\n    job_id: str\n    card_id: str\n    status: str\n    provider: str | None = None\nclass JobStatusResponse(BaseModel):\n    job_id: str\n    card_id: str\n    status: str\n    stage: JobStage | None = None",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "JobStatusResponse",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class JobStatusResponse(BaseModel):\n    job_id: str\n    card_id: str\n    status: str\n    stage: JobStage | None = None\n    error: str | None = None\n    provider: str | None = None\n    card: CardResponse | None = None\nclass UpdateCardRequest(BaseModel):\n    status: CardStatus | None = None",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCardRequest",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class UpdateCardRequest(BaseModel):\n    status: CardStatus | None = None\n    snooze_until_epoch_day: int | None = None\nclass ProviderInfo(BaseModel):\n    name: str\n    available: bool\n    description: str | None = None\nclass HealthResponse(BaseModel):\n    status: str\n    version: str",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProviderInfo",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class ProviderInfo(BaseModel):\n    name: str\n    available: bool\n    description: str | None = None\nclass HealthResponse(BaseModel):\n    status: str\n    version: str\n    active_provider: str\n    providers: list[ProviderInfo]\n    llm_configured: bool",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthResponse",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class HealthResponse(BaseModel):\n    status: str\n    version: str\n    active_provider: str\n    providers: list[ProviderInfo]\n    llm_configured: bool\n    auth_configured: bool\n    allow_dev_auth: bool",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "utcnow",
+        "kind": 2,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "def utcnow() -> datetime:\n    return datetime.now(timezone.utc)\nclass CardStatus(str, enum.Enum):\n    \"\"\"Mirrors com.resourcetracker.domain.model.CardStatus on the client.\"\"\"\n    QUEUED = \"QUEUED\"\n    PROCESSING = \"PROCESSING\"\n    PENDING = \"PENDING\"\n    REVIEWED = \"REVIEWED\"\n    SNOOZED = \"SNOOZED\"\n    FAILED = \"FAILED\"",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(\n        database_url=f\"sqlite+aiosqlite:///{tmp_path / 'test.sqlite3'}\",\n        workspace_dir=tmp_path / \"workspace\",\n        allow_dev_auth=True,\n        dev_user_id=\"test-user\",\n        google_client_id=\"\",\n        groq_api_key=\"\",\n        transcript_provider=\"manual\",",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "reel_url",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def reel_url() -> str:\n    return \"https://www.instagram.com/reel/C1234567890abcdef/\"",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"ALLOW_DEV_AUTH\"]",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "os.environ[\"ALLOW_DEV_AUTH\"] = \"true\"\nos.environ[\"GOOGLE_CLIENT_ID\"] = \"\"\nos.environ[\"ENV\"] = \"test\"\n# Keep tests offline and deterministic: no LLM call, no frame sampling.\nos.environ[\"GROQ_API_KEY\"] = \"\"\nos.environ[\"OCR_ENABLED\"] = \"false\"\n@pytest.fixture\ndef settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GOOGLE_CLIENT_ID\"]",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "os.environ[\"GOOGLE_CLIENT_ID\"] = \"\"\nos.environ[\"ENV\"] = \"test\"\n# Keep tests offline and deterministic: no LLM call, no frame sampling.\nos.environ[\"GROQ_API_KEY\"] = \"\"\nos.environ[\"OCR_ENABLED\"] = \"false\"\n@pytest.fixture\ndef settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(\n        database_url=f\"sqlite+aiosqlite:///{tmp_path / 'test.sqlite3'}\",",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"ENV\"]",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "os.environ[\"ENV\"] = \"test\"\n# Keep tests offline and deterministic: no LLM call, no frame sampling.\nos.environ[\"GROQ_API_KEY\"] = \"\"\nos.environ[\"OCR_ENABLED\"] = \"false\"\n@pytest.fixture\ndef settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(\n        database_url=f\"sqlite+aiosqlite:///{tmp_path / 'test.sqlite3'}\",\n        workspace_dir=tmp_path / \"workspace\",",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GROQ_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "os.environ[\"GROQ_API_KEY\"] = \"\"\nos.environ[\"OCR_ENABLED\"] = \"false\"\n@pytest.fixture\ndef settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(\n        database_url=f\"sqlite+aiosqlite:///{tmp_path / 'test.sqlite3'}\",\n        workspace_dir=tmp_path / \"workspace\",\n        allow_dev_auth=True,\n        dev_user_id=\"test-user\",",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OCR_ENABLED\"]",
+        "kind": 5,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "os.environ[\"OCR_ENABLED\"] = \"false\"\n@pytest.fixture\ndef settings(tmp_path: Path):\n    from app.config import Settings\n    config = Settings(\n        database_url=f\"sqlite+aiosqlite:///{tmp_path / 'test.sqlite3'}\",\n        workspace_dir=tmp_path / \"workspace\",\n        allow_dev_auth=True,\n        dev_user_id=\"test-user\",\n        google_client_id=\"\",",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "TRANSCRIPT",
+        "kind": 5,
+        "importPath": "backend.tests.test_api",
+        "description": "backend.tests.test_api",
+        "peekOfCode": "TRANSCRIPT = (\n    \"Three things I wish I knew before starting to run. First, go slowly for the first \"\n    \"two weeks. Second, buy shoes that fit now, not shoes that fit later. Third, run \"\n    \"easy most days and hard twice a week.\"\n)\nasync def _settle(runtime, timeout: float = 10.0) -> None:\n    \"\"\"Wait for submitted jobs to finish and their results to be persisted.\"\"\"\n    await runtime.runner.drain(timeout=timeout)\nasync def test_health_reports_configuration_without_leaking_secrets(client):\n    response = await client.get(\"/v1/health\")",
+        "detail": "backend.tests.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_claims_pass",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_valid_claims_pass(settings):\n    verifier = GoogleVerifier(settings)\n    verifier._assert_valid(_valid_claims(), nonce=None)\n    verifier._assert_valid(_valid_claims(nonce=\"n1\"), nonce=\"n1\")\n@pytest.mark.parametrize(\"issuer\", [\"evil.example\", \"accounts.google.com.evil.example\", \"https://evil.example\"])\ndef test_wrong_issuer_is_rejected(settings, issuer):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"issuer\"):\n        verifier._assert_valid(_valid_claims(iss=issuer), nonce=None)\ndef test_unverified_email_is_rejected(settings):",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_wrong_issuer_is_rejected",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_wrong_issuer_is_rejected(settings, issuer):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"issuer\"):\n        verifier._assert_valid(_valid_claims(iss=issuer), nonce=None)\ndef test_unverified_email_is_rejected(settings):\n    \"\"\"Otherwise anyone can sign up for a Google account and claim an unverified address.\"\"\"\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"not verified\"):\n        verifier._assert_valid(_valid_claims(email_verified=False), nonce=None)\ndef test_missing_subject_is_rejected(settings):",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_unverified_email_is_rejected",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_unverified_email_is_rejected(settings):\n    \"\"\"Otherwise anyone can sign up for a Google account and claim an unverified address.\"\"\"\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"not verified\"):\n        verifier._assert_valid(_valid_claims(email_verified=False), nonce=None)\ndef test_missing_subject_is_rejected(settings):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"no subject\"):\n        verifier._assert_valid(_valid_claims(sub=None), nonce=None)\ndef test_nonce_mismatch_is_rejected(settings):",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_subject_is_rejected",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_missing_subject_is_rejected(settings):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"no subject\"):\n        verifier._assert_valid(_valid_claims(sub=None), nonce=None)\ndef test_nonce_mismatch_is_rejected(settings):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"nonce\"):\n        verifier._assert_valid(_valid_claims(nonce=\"other\"), nonce=\"n1\")\ndef test_missing_nonce_claim_is_rejected(settings):\n    \"\"\"A token with no nonce at all must not satisfy a nonce check.\"\"\"",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_nonce_mismatch_is_rejected",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_nonce_mismatch_is_rejected(settings):\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"nonce\"):\n        verifier._assert_valid(_valid_claims(nonce=\"other\"), nonce=\"n1\")\ndef test_missing_nonce_claim_is_rejected(settings):\n    \"\"\"A token with no nonce at all must not satisfy a nonce check.\"\"\"\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"nonce\"):\n        verifier._assert_valid(_valid_claims(nonce=None), nonce=\"n1\")\nasync def _resolve(token: str, settings: Settings):",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_missing_nonce_claim_is_rejected",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_missing_nonce_claim_is_rejected(settings):\n    \"\"\"A token with no nonce at all must not satisfy a nonce check.\"\"\"\n    verifier = GoogleVerifier(settings)\n    with pytest.raises(AuthError, match=\"nonce\"):\n        verifier._assert_valid(_valid_claims(nonce=None), nonce=\"n1\")\nasync def _resolve(token: str, settings: Settings):\n    \"\"\"Call current_user_id directly, supplying the Depends defaults by hand.\n    FastAPI would inject these at request time; here they are passed explicitly.\n    \"\"\"\n    return await current_user_id(",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_verifier_reports_unconfigured_without_raising",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_verifier_reports_unconfigured_without_raising():\n    verifier = GoogleVerifier(_settings(google_client_id=\"   \"))\n    assert verifier.is_configured() is False\nasync def test_verify_reports_a_bad_token_as_401():\n    \"\"\"A signature that does not check out must surface as AuthError, not a 500.\"\"\"\n    verifier = GoogleVerifier(_settings())\n    with pytest.raises(AuthError, match=\"Invalid Google ID token\"):\n        await verifier.verify(\"clearly.not.a.jwt\")\ndef test_auth_error_is_401():\n    assert AuthError().status_code == 401",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_auth_error_is_401",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_auth_error_is_401():\n    assert AuthError().status_code == 401\ndef test_health_never_exposes_the_google_client_id(client_secrets):\n    \"\"\"Sanity check that the verifier does not echo configuration in errors.\"\"\"\n    verifier = GoogleVerifier(client_secrets)\n    with pytest.raises(AuthError) as excinfo:\n        verifier._assert_valid(_valid_claims(iss=\"evil.example\"), nonce=None)\n    assert \"123.apps.googleusercontent.com\" not in str(excinfo.value)\n@pytest.fixture\ndef client_secrets():",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_health_never_exposes_the_google_client_id",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def test_health_never_exposes_the_google_client_id(client_secrets):\n    \"\"\"Sanity check that the verifier does not echo configuration in errors.\"\"\"\n    verifier = GoogleVerifier(client_secrets)\n    with pytest.raises(AuthError) as excinfo:\n        verifier._assert_valid(_valid_claims(iss=\"evil.example\"), nonce=None)\n    assert \"123.apps.googleusercontent.com\" not in str(excinfo.value)\n@pytest.fixture\ndef client_secrets():\n    return _settings()",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "client_secrets",
+        "kind": 2,
+        "importPath": "backend.tests.test_auth",
+        "description": "backend.tests.test_auth",
+        "peekOfCode": "def client_secrets():\n    return _settings()",
+        "detail": "backend.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "_Stub",
+        "kind": 6,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "class _Stub(TranscriptProvider):\n    \"\"\"Base for the generated stubs below. Subclasses carry their own behaviour.\"\"\"\n    name = \"stub\"\n    description = \"stub\"\n    calls = 0\n    def is_available(self) -> bool:\n        return True\n    async def fetch(self, reel_url, workspace):\n        type(self).calls += 1\n        raise NotImplementedError",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "register_stub",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def register_stub(monkeypatch):\n    \"\"\"Register stubs under names, each with independent behaviour.\n    Returns a `register(name, available=..., result=..., error=...)` function that\n    builds a *fresh subclass* per name. Sharing one class across two names would make\n    `available`/`result` collide, which silently defeats the point of these tests.\n    \"\"\"\n    monkeypatch.setattr(registry, \"_PROVIDER_TYPES\", dict(registry._PROVIDER_TYPES))\n    _CALLS.clear()\n    def _register(\n        name: str,",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "workspace",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def workspace(settings):\n    return settings.workspace_dir\nasync def test_first_provider_with_content_wins(register_stub, workspace):\n    register_stub(\"first\", result=TranscriptResult(provider=\"first\", transcript=\"the good stuff\"))\n    result = await run_provider_chain([\"first\"], \"https://instagram.com/reel/abc/\", workspace)\n    assert result.transcript == \"the good stuff\"\n    assert _call_count(\"first\") == 1\nasync def test_unavailable_provider_is_skipped_not_fatal(register_stub, workspace):\n    register_stub(\"down\", available=False)\n    with pytest.raises(ProviderError) as excinfo:",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_build_provider_rejects_unknown_names",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_build_provider_rejects_unknown_names():\n    with pytest.raises(KeyError, match=\"Unknown transcript provider\"):\n        build_provider(\"does-not-exist\")\nasync def test_manual_provider_is_always_available(workspace):\n    assert ManualPasteProvider().is_available() is True\n    empty = await ManualPasteProvider().fetch(\"https://x/1/\", workspace)\n    assert empty.has_content is False\n    assert \"no transcript was supplied\" in empty.warnings[0]\nasync def test_manual_provider_overrides_are_per_instance(workspace):\n    \"\"\"Two concurrent jobs must not see each other's pasted transcript.\"\"\"",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_oembed_is_unavailable_without_an_instagram_token",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_oembed_is_unavailable_without_an_instagram_token():\n    \"\"\"No token means no public read, so it must say so rather than look broken.\"\"\"\n    assert OEmbedProvider(access_token=\"\").is_available() is False\n    assert OEmbedProvider(access_token=\"   \").is_available() is False\n    assert OEmbedProvider(access_token=\"abc|def\").is_available() is True\nasync def test_oembed_without_a_token_explains_itself(workspace):\n    result = await OEmbedProvider(access_token=\"\").fetch(\n        \"https://www.instagram.com/reel/abc/\", workspace\n    )\n    assert result.has_content is False",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_oembed_sends_the_token_to_graph",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_oembed_sends_the_token_to_graph():\n    provider = OEmbedProvider(access_token=\"app|secret\")\n    endpoint = provider._endpoint(\"https://www.instagram.com/reel/abc/\")\n    assert endpoint.startswith(\"https://graph.facebook.com/\")\n    assert \"/instagram_oembed?\" in endpoint\n    assert \"access_token=app%7Csecret\" in endpoint\n    assert \"https%3A%2F%2Fwww.instagram.com%2Freel%2Fabc%2F\" in endpoint\n@pytest.mark.parametrize(\n    \"author_url,expected\",\n    [",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_username_from_author_url",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_username_from_author_url(author_url, expected):\n    assert username_from_author_url(author_url) == expected\n@pytest.mark.parametrize(\n    \"caption,expected\",\n    [\n        (\"A short caption\", \"A short caption\"),\n        (\"one two three four five six seven eight nine ten\", \"one two three four five six seven eight\"),\n        (\"First line here\\nsecond line\", \"First line here\"),\n        (\"   \", None),\n    ],",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_title_from_caption",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_title_from_caption(caption, expected):\n    assert title_from_caption(caption) == expected\n@pytest.mark.parametrize(\n    \"url,expected\",\n    [\n        (\"https://www.instagram.com/reel/Cabc123/\", \"Cabc123\"),\n        (\"https://instagram.com/p/Short_1-2/\", \"Short_1-2\"),\n        (\"https://www.instagram.com/tv/AbC_dEf/\", \"AbC_dEf\"),\n        (\"https://www.instagram.com/stories/someone/123/\", None),\n    ],",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_shortcode",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_extract_shortcode(url, expected):\n    assert extract_shortcode(url) == expected\ndef test_describe_providers_includes_availability():\n    described = {entry[\"name\"]: entry for entry in registry.describe_providers()}\n    assert \"manual\" in described\n    assert described[\"manual\"][\"available\"] is True\n    # Whisper needs a key that the test environment deliberately does not set.\n    assert described[\"whisper\"][\"available\"] is False\ndef test_prompt_block_includes_every_source(workspace):\n    result = TranscriptResult(",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_describe_providers_includes_availability",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_describe_providers_includes_availability():\n    described = {entry[\"name\"]: entry for entry in registry.describe_providers()}\n    assert \"manual\" in described\n    assert described[\"manual\"][\"available\"] is True\n    # Whisper needs a key that the test environment deliberately does not set.\n    assert described[\"whisper\"][\"available\"] is False\ndef test_prompt_block_includes_every_source(workspace):\n    result = TranscriptResult(\n        provider=\"composed\",\n        transcript=\"spoken words here\",",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_prompt_block_includes_every_source",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_prompt_block_includes_every_source(workspace):\n    result = TranscriptResult(\n        provider=\"composed\",\n        transcript=\"spoken words here\",\n        captions=[\"on screen caption\"],\n        metadata={\"title\": \"A title\", \"author\": \"someone\", \"description\": \"a caption\"},\n        hashtags=[\"focus\", \"habits\"],\n        creator=CreatorProfile(name=\"Mark\", username=\"marks\", bio=\"Lives for mornings\"),\n        ocr_text=\"text burnt into the video\",\n    )",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_oembed_extracts_creator_and_hashtags",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_oembed_extracts_creator_and_hashtags():\n    provider = OEmbedProvider()\n    creator = provider._creator_from(\n        [\n            {\n                \"media\": {\n                    \"user\": {\"username\": \"marks\", \"full_name\": \"Mark S\", \"biography\": \"A bio\"},\n                    \"caption\": \"Try this #habit and #focus\",\n                }\n            }",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_provider_chain_always_falls_back_to_oembed",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_provider_chain_always_falls_back_to_oembed(settings):\n    chain = settings.provider_chain\n    assert chain[0] == \"manual\"\n    assert chain[-1] == \"oembed\"\n    assert len(set(chain)) == len(chain), \"the chain must not repeat a provider\"\ndef test_prompt_block_flags_a_partial_extraction():\n    block = TranscriptResult.not_available(\"thin\", \"no content\").to_prompt_block()\n    assert \"NO CONTENT COULD BE EXTRACTED\" in block",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_prompt_block_flags_a_partial_extraction",
+        "kind": 2,
+        "importPath": "backend.tests.test_providers",
+        "description": "backend.tests.test_providers",
+        "peekOfCode": "def test_prompt_block_flags_a_partial_extraction():\n    block = TranscriptResult.not_available(\"thin\", \"no content\").to_prompt_block()\n    assert \"NO CONTENT COULD BE EXTRACTED\" in block",
+        "detail": "backend.tests.test_providers",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_json_handles_a_plain_object",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_extract_json_handles_a_plain_object():\n    assert extract_json('{\"title\": \"A\", \"summary\": \"B\"}') == {\"title\": \"A\", \"summary\": \"B\"}\ndef test_extract_json_unwraps_a_code_fence():\n    raw = 'Sure!\\n```json\\n{\"title\": \"A\", \"summary\": \"B\"}\\n```\\nHope that helps.'\n    assert extract_json(raw)[\"title\"] == \"A\"\ndef test_extract_json_finds_an_object_inside_prose():\n    raw = 'Here you go: {\"title\": \"A\", \"summary\": \"B\"} - let me know.'\n    assert extract_json(raw)[\"summary\"] == \"B\"\ndef test_extract_json_rejects_a_non_object():\n    with pytest.raises(ValueError):",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_json_unwraps_a_code_fence",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_extract_json_unwraps_a_code_fence():\n    raw = 'Sure!\\n```json\\n{\"title\": \"A\", \"summary\": \"B\"}\\n```\\nHope that helps.'\n    assert extract_json(raw)[\"title\"] == \"A\"\ndef test_extract_json_finds_an_object_inside_prose():\n    raw = 'Here you go: {\"title\": \"A\", \"summary\": \"B\"} - let me know.'\n    assert extract_json(raw)[\"summary\"] == \"B\"\ndef test_extract_json_rejects_a_non_object():\n    with pytest.raises(ValueError):\n        extract_json(\"[1, 2, 3]\")\ndef test_coerce_normalises_strings_into_lists():",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_json_finds_an_object_inside_prose",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_extract_json_finds_an_object_inside_prose():\n    raw = 'Here you go: {\"title\": \"A\", \"summary\": \"B\"} - let me know.'\n    assert extract_json(raw)[\"summary\"] == \"B\"\ndef test_extract_json_rejects_a_non_object():\n    with pytest.raises(ValueError):\n        extract_json(\"[1, 2, 3]\")\ndef test_coerce_normalises_strings_into_lists():\n    coerced = _coerce(\n        {\n            \"title\": \"Habits\",",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_json_rejects_a_non_object",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_extract_json_rejects_a_non_object():\n    with pytest.raises(ValueError):\n        extract_json(\"[1, 2, 3]\")\ndef test_coerce_normalises_strings_into_lists():\n    coerced = _coerce(\n        {\n            \"title\": \"Habits\",\n            \"summary\": \"Three habits.\",\n            \"key_insights\": \"just a string\",\n            \"action_items\": [\"a\", \"b\"],",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_coerce_normalises_strings_into_lists",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_coerce_normalises_strings_into_lists():\n    coerced = _coerce(\n        {\n            \"title\": \"Habits\",\n            \"summary\": \"Three habits.\",\n            \"key_insights\": \"just a string\",\n            \"action_items\": [\"a\", \"b\"],\n            \"topics\": [],\n        }\n    )",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_coerce_requires_a_title_and_summary",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_coerce_requires_a_title_and_summary():\n    with pytest.raises(ValueError, match=\"no title\"):\n        _coerce({\"summary\": \"s\"})\n    with pytest.raises(ValueError, match=\"no summary\"):\n        _coerce({\"title\": \"t\"})\ndef test_coerce_strips_and_caps_lengths():\n    coerced = _coerce({\"title\": \"  x  \" * 200, \"summary\": \"y\" * 9000})\n    assert len(coerced[\"title\"]) <= 200\n    assert len(coerced[\"summary\"]) <= 4000\n    assert coerced[\"title\"] == coerced[\"title\"].strip()",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_coerce_strips_and_caps_lengths",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_coerce_strips_and_caps_lengths():\n    coerced = _coerce({\"title\": \"  x  \" * 200, \"summary\": \"y\" * 9000})\n    assert len(coerced[\"title\"]) <= 200\n    assert len(coerced[\"summary\"]) <= 4000\n    assert coerced[\"title\"] == coerced[\"title\"].strip()\ndef test_coerce_parses_description_and_hashtags():\n    coerced = _coerce(\n        {\n            \"title\": \"Habits\",\n            \"summary\": \"Three habits.\",",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_coerce_parses_description_and_hashtags",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_coerce_parses_description_and_hashtags():\n    coerced = _coerce(\n        {\n            \"title\": \"Habits\",\n            \"summary\": \"Three habits.\",\n            \"description\": \"A short overview. \" * 200,\n            \"hashtags\": [\"#Sleep\", \"#Habits\", \"focus\"],\n        }\n    )\n    assert coerced[\"description\"].startswith(\"A short overview\")",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_merge_source_metadata_wins_with_provider_facts",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_merge_source_metadata_wins_with_provider_facts():\n    \"\"\"Hashtags and creator come from the provider, not the model's guess.\"\"\"\n    card = KnowledgeCard(\n        title=\"t\",\n        summary=\"s\",\n        hashtags=[\"Sleep\", \"MadeUpTag\"],\n        description=\"model wrote this\",\n    )\n    result = TranscriptResult(\n        provider=\"oembed\",",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_merge_fills_description_from_the_caption_when_missing",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_merge_fills_description_from_the_caption_when_missing():\n    card = KnowledgeCard(title=\"t\", summary=\"s\")\n    result = TranscriptResult(\n        provider=\"oembed\",\n        transcript=\"\",\n        metadata={\"description\": \"heat the top of the pan\"},\n    )\n    assert _merge_source_metadata(card, result).description == \"heat the top of the pan\"\ndef test_merge_names_a_contentless_card_after_the_creator():\n    \"\"\"A caption of one emoji leaves no title, and '@marks' beats 'Saved reel'.\"\"\"",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_merge_names_a_contentless_card_after_the_creator",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_merge_names_a_contentless_card_after_the_creator():\n    \"\"\"A caption of one emoji leaves no title, and '@marks' beats 'Saved reel'.\"\"\"\n    card = KnowledgeCard(title=\"Saved reel\", summary=\"s\")\n    result = TranscriptResult(\n        provider=\"oembed\",\n        transcript=\"\",\n        creator=CreatorProfile(username=\"marks\"),\n        metadata={\"author\": \"marks\"},\n    )\n    assert _merge_source_metadata(card, result).title == \"@marks\"",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_merge_keeps_a_real_title_even_when_the_creator_is_known",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_merge_keeps_a_real_title_even_when_the_creator_is_known():\n    card = KnowledgeCard(title=\"Finishing a side project\", summary=\"s\")\n    result = TranscriptResult(\n        provider=\"oembed\",\n        transcript=\"\",\n        creator=CreatorProfile(username=\"marks\"),\n    )\n    assert _merge_source_metadata(card, result).title == \"Finishing a side project\"\ndef test_extract_hashtags_deduplicates_across_blocks():\n    assert extract_hashtags(\"Try #Focus and #focus and #sleep #focus\", \"Also #sleep\") == [",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_hashtags_deduplicates_across_blocks",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_extract_hashtags_deduplicates_across_blocks():\n    assert extract_hashtags(\"Try #Focus and #focus and #sleep #focus\", \"Also #sleep\") == [\n        \"Focus\",\n        \"sleep\",\n    ]\ndef test_knowledge_card_deduplicates_and_trims():\n    card = KnowledgeCard(\n        title=\"t\",\n        summary=\"s\",\n        key_insights=[\"  one  \", \"one\", \"two\"],",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_knowledge_card_deduplicates_and_trims",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_knowledge_card_deduplicates_and_trims():\n    card = KnowledgeCard(\n        title=\"t\",\n        summary=\"s\",\n        key_insights=[\"  one  \", \"one\", \"two\"],\n        action_items=[\"a\"],\n        topics=[\"a\"],\n    )\n    assert card.key_insights == [\"one\", \"two\"]\ndef test_prompt_truncates_an_enormous_transcript():",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_prompt_truncates_an_enormous_transcript",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_prompt_truncates_an_enormous_transcript():\n    result = TranscriptResult(provider=\"p\", transcript=\"word \" * 200_000)\n    prompt = build_prompt(result, max_chars=600)\n    assert len(prompt) < 2000\n    assert \"[truncated]\" in prompt\ndef test_prompt_tells_the_model_when_extraction_was_partial():\n    thin = TranscriptResult.not_available(\"p\", \"caption only\")\n    thin.metadata[\"title\"] = \"A caption\"\n    assert \"extraction was incomplete\" in build_prompt(thin)\ndef test_prompt_never_exceeds_the_token_budget(settings):",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_prompt_tells_the_model_when_extraction_was_partial",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_prompt_tells_the_model_when_extraction_was_partial():\n    thin = TranscriptResult.not_available(\"p\", \"caption only\")\n    thin.metadata[\"title\"] = \"A caption\"\n    assert \"extraction was incomplete\" in build_prompt(thin)\ndef test_prompt_never_exceeds_the_token_budget(settings):\n    \"\"\"A pathological input must not be able to blow past the context window.\"\"\"\n    result = TranscriptResult(\n        provider=\"p\",\n        transcript=\"a\" * 5_000_000,\n        captions=[\"b\" * 100_000] * 5,",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_prompt_never_exceeds_the_token_budget",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_prompt_never_exceeds_the_token_budget(settings):\n    \"\"\"A pathological input must not be able to blow past the context window.\"\"\"\n    result = TranscriptResult(\n        provider=\"p\",\n        transcript=\"a\" * 5_000_000,\n        captions=[\"b\" * 100_000] * 5,\n    )\n    assert len(build_prompt(result)) < 20_000\ndef test_fallback_summarises_without_an_api_key():\n    card = _extractive_fallback(TranscriptResult(provider=\"p\", transcript=TRANSCRIPT))",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_fallback_summarises_without_an_api_key",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_fallback_summarises_without_an_api_key():\n    card = _extractive_fallback(TranscriptResult(provider=\"p\", transcript=TRANSCRIPT))\n    assert isinstance(card, KnowledgeCard)\n    assert card.title\n    assert \"habits\" in card.summary.lower()\ndef test_fallback_is_honest_when_there_is_no_content():\n    thin = TranscriptResult.not_available(\"p\", \"nothing\")\n    thin.metadata[\"title\"] = \"Saved reel\"\n    card = _extractive_fallback(thin)\n    assert \"No transcript was available\" in card.summary",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "test_fallback_is_honest_when_there_is_no_content",
+        "kind": 2,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "def test_fallback_is_honest_when_there_is_no_content():\n    thin = TranscriptResult.not_available(\"p\", \"nothing\")\n    thin.metadata[\"title\"] = \"Saved reel\"\n    card = _extractive_fallback(thin)\n    assert \"No transcript was available\" in card.summary\nasync def test_summarizer_falls_back_when_groq_is_unconfigured(settings):\n    summarizer = CardSummarizer(settings)\n    assert summarizer.is_configured() is False\n    card = await summarizer.summarize(TranscriptResult(provider=\"p\", transcript=TRANSCRIPT))\n    assert card.summary",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "TRANSCRIPT",
+        "kind": 5,
+        "importPath": "backend.tests.test_summarizer",
+        "description": "backend.tests.test_summarizer",
+        "peekOfCode": "TRANSCRIPT = (\n    \"The three habits are: sleep before 10pm, run before breakfast, and read twenty \"\n    \"pages. Sleep was the biggest one. Running before breakfast beat every evening run \"\n    \"I ever tried. Reading twenty pages sounds small but it compounds.\"\n)\ndef test_extract_json_handles_a_plain_object():\n    assert extract_json('{\"title\": \"A\", \"summary\": \"B\"}') == {\"title\": \"A\", \"summary\": \"B\"}\ndef test_extract_json_unwraps_a_code_fence():\n    raw = 'Sure!\\n```json\\n{\"title\": \"A\", \"summary\": \"B\"}\\n```\\nHope that helps.'\n    assert extract_json(raw)[\"title\"] == \"A\"",
+        "detail": "backend.tests.test_summarizer",
+        "documentation": {}
+    },
+    {
+        "label": "_NoisyProvider",
+        "kind": 6,
+        "importPath": "backend.tests.test_workspace_cleanup",
+        "description": "backend.tests.test_workspace_cleanup",
+        "peekOfCode": "class _NoisyProvider:\n    \"\"\"Stands in for a real provider: writes media, frames, and OCR junk.\"\"\"\n    name = \"noisy\"\n    description = \"test provider that litters\"\n    def is_available(self) -> bool:\n        return True\n    async def fetch(self, reel_url: str, workspace: Path) -> TranscriptResult:\n        (workspace / \"media\").mkdir(parents=True, exist_ok=True)\n        (workspace / \"media\" / \"video.mp4\").write_bytes(b\"x\" * 2048)\n        (workspace / \"frames\").mkdir(parents=True, exist_ok=True)",
+        "detail": "backend.tests.test_workspace_cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "test_janitor_removes_a_stale_workspace",
+        "kind": 2,
+        "importPath": "backend.tests.test_workspace_cleanup",
+        "description": "backend.tests.test_workspace_cleanup",
+        "peekOfCode": "def test_janitor_removes_a_stale_workspace(settings):\n    stale = settings.workspace_dir / \"stale-job\"\n    (stale / \"media\").mkdir(parents=True)\n    (stale / \"media\" / \"video.mp4\").write_bytes(b\"z\" * 100)\n    # Fresh mtime means a running job, which must be left alone.\n    fresh = settings.workspace_dir / \"running-job\"\n    (fresh / \"media\").mkdir(parents=True)\n    (fresh / \"media\" / \"video.mp4\").write_bytes(b\"z\" * 100)\n    # Simulate a process that was SIGKILLed mid-job: the directory is old.\n    old = time.time() - (settings.janitor_max_age_seconds * 2)",
+        "detail": "backend.tests.test_workspace_cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "test_janitor_is_a_noop_on_an_empty_root",
+        "kind": 2,
+        "importPath": "backend.tests.test_workspace_cleanup",
+        "description": "backend.tests.test_workspace_cleanup",
+        "peekOfCode": "def test_janitor_is_a_noop_on_an_empty_root(settings):\n    assert Janitor(settings).sweep() == []\ndef test_delete_tree_survives_readonly_files(settings):\n    target = settings.workspace_dir / \"ro\"\n    target.mkdir(parents=True, exist_ok=True)\n    readonly = target / \"locked.bin\"\n    readonly.write_bytes(b\"data\")\n    readonly.chmod(0o400)\n    assert delete_tree(target) is True\n    assert not target.exists()",
+        "detail": "backend.tests.test_workspace_cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_tree_survives_readonly_files",
+        "kind": 2,
+        "importPath": "backend.tests.test_workspace_cleanup",
+        "description": "backend.tests.test_workspace_cleanup",
+        "peekOfCode": "def test_delete_tree_survives_readonly_files(settings):\n    target = settings.workspace_dir / \"ro\"\n    target.mkdir(parents=True, exist_ok=True)\n    readonly = target / \"locked.bin\"\n    readonly.write_bytes(b\"data\")\n    readonly.chmod(0o400)\n    assert delete_tree(target) is True\n    assert not target.exists()\ndef _fake_chain(provider):\n    async def _run(_chain, _reel_url, workspace):",
+        "detail": "backend.tests.test_workspace_cleanup",
+        "documentation": {}
+    }
+]

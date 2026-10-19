@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backed up: the Room card cache. Restoring it on a new device is harmless - the next
+  sync reconciles it with the backend.
+
+  The room database is the only persisted data the app has. Authentication was
+  removed, so there is no session or token DataStore to exclude any more.
+
+  Note the asymmetry with data_extraction_rules.xml: there is no <exclude> here. As
+  soon as an <include> is present, everything not listed is excluded implicitly, so an
+  exclude for a path that is already outside the include set is meaningless - and lint
+  treats it as an error.
+-->
+<full-backup-content>
+    <include domain="database" path="resourcetracker.db" />
+</full-backup-content>

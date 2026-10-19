@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ backup/transfer rules. Mirrors backup_rules.xml: the card cache is
+  included, and because an <include> list is exhaustive, nothing else is backed up.
+  There is no session DataStore any more now that authentication has been removed.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="resourcetracker.db" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="resourcetracker.db" />
+    </device-transfer>
+</data-extraction-rules>

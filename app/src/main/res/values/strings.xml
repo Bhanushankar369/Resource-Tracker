@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResourceTracker</string>
+
+    <!-- ===== Tabs / navigation ===== -->
+    <string name="tab_review">Review</string>
+    <string name="tab_reviewed">Reviewed</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- ===== Add content ===== -->
+    <string name="add_reel_title">Save content</string>
+    <string name="add_reel_hint">Paste link (Instagram, YouTube, X)</string>
+    <string name="add_reel_note_hint">Note (optional)</string>
+    <string name="add_reel_transcript_hint">Paste transcript (optional — only needed if extraction fails)</string>
+    <string name="add_reel_caption_hint">Caption / description</string>
+    <string name="add_reel_caption_placeholder">Paste caption or description (optional)</string>
+    <string name="add_reel_caption_help">Optional. For platforms without automatic extraction, paste it here so a card can be built.</string>
+    <string name="add_reel_creator_hint">Who posted it</string>
+    <string name="add_reel_creator_placeholder">username / handle</string>
+    <string name="add_reel_creator_help">Account name or @handle (optional, auto-extracted if available).</string>
+    <string name="add_reel_submit">Save for summary</string>
+    <string name="add_reel_duplicate">That content is already saved.</string>
+    <string name="add_reel_invalid">That does not look like a link.</string>
+    <string name="add_reel_saved">Saved. The summary will appear here shortly.</string>
+    <string name="add_reel_platform_hint">Supports Instagram Reels, YouTube Videos &amp; Shorts, and X (Twitter) posts.</string>
+    <string name="add_reel_instagram_hint">Tip: tap Share in Instagram, YouTube, or X and pick ResourceTracker.</string>
+
+    <!-- ===== Cards ===== -->
+    <string name="cards_empty_title">Nothing to review</string>
+    <string name="cards_empty_body">Save a reel, video, or post and its summary will show up here, ready for a quick review.</string>
+    <string name="reviewed_empty_title">Nothing reviewed yet</string>
+    <string name="reviewed_empty_body">Cards you mark as reviewed are archived here.</string>
+    <string name="card_summary_heading">Summary</string>
+    <string name="card_insights_heading">Key insights</string>
+    <string name="card_actions_heading">Action items</string>
+    <string name="card_topics_heading">Topics</string>
+    <string name="card_about_heading">About this content</string>
+    <string name="card_hashtags_heading">Hashtags</string>
+    <string name="card_mark_reviewed">Mark reviewed</string>
+    <string name="card_snooze">Snooze till tomorrow</string>
+    <string name="card_delete">Delete</string>
+    <string name="card_retry">Retry</string>
+    <string name="card_open_reel">Open in Instagram</string>
+    <string name="card_open_youtube">Open in YouTube</string>
+    <string name="card_open_x">Open in X</string>
+    <string name="card_open_generic">Open link</string>
+    <string name="card_open_reel_failed">Could not open the link</string>
+    <string name="card_processing">Summarising…</string>
+    <string name="card_queued">Waiting to upload…</string>
+    <string name="card_failed">Could not summarise</string>
+    <string name="card_reviewed">Reviewed</string>
+    <string name="card_snoozed_until">Snoozed until %1$s</string>
+    <string name="card_delete_confirm_title">Delete this card?</string>
+    <string name="card_delete_confirm_body">The summary and the reel link are removed. This cannot be undone.</string>
+    <string name="card_deleted">Card deleted</string>
+    <string name="card_reviewed_toast">Marked reviewed — you will not be reminded about it again.</string>
+    <string name="card_snoozed_toast">Snoozed until tomorrow.</string>
+    <string name="card_not_found">That card no longer exists.</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_back">Back</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_close">Close</string>
+    <string name="common_dismiss">Dismiss</string>
+
+    <!-- ===== Reminder notifications ===== -->
+    <!--
+      Plurals, not "%d cards": a locale with more than one plural form (Polish, Arabic)
+      needs one, and lint flags the count-in-a-string form.
+    -->
+    <plurals name="reminder_title">
+        <item quantity="one">%1$d card is waiting for review</item>
+        <item quantity="other">%1$d cards are waiting for review</item>
+    </plurals>
+    <string name="reminder_body_preview">Latest: %1$s</string>
+    <plurals name="reminder_more">
+        <item quantity="one">+%1$d more</item>
+        <item quantity="other">+%1$d more</item>
+    </plurals>
+    <string name="notification_ingest_title">Summarising your reel</string>
+    <string name="notification_ingest_body">Uploading %1$s</string>
+    <string name="reminder_test_title">Test: your %1$s review reminder</string>
+    <string name="reminder_test_body">This is what the daily notification looks like. Nothing else was sent.</string>
+
+    <!-- ===== Settings ===== -->
+    <string name="settings_reminder_title">Daily review reminder</string>
+    <string name="settings_reminder_body">Every day at %1$s you get one notification listing the cards you have not reviewed yet.</string>
+    <string name="settings_reminder_status_scheduled">Next reminder: %1$s</string>
+    <string name="settings_reminder_status_unscheduled">No reminder scheduled</string>
+    <string name="settings_reminder_time_value">Reminder time: %1$s</string>
+    <string name="settings_reminder_change_time">Change</string>
+    <string name="reminder_time_dialog_title">Choose reminder time</string>
+    <string name="reminder_time_dialog_confirm">OK</string>
+    <string name="settings_reminder_inexact">Exact alarms are not permitted, so the reminder may drift by a few minutes.</string>
+    <string name="settings_grant_exact_alarm">Allow exact alarms</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_notifications_body">Required for the daily reminder.</string>
+    <string name="settings_notifications_blocked">Notifications are turned off, so reminders cannot be delivered.</string>
+    <string name="settings_allow_notifications">Allow notifications</string>
+    <string name="settings_test_reminder">Send a test reminder</string>
+    <string name="settings_test_reminder_sent">Test reminder sent.</string>
+    <string name="settings_test_reminder_blocked">Could not post a notification — check the permission.</string>
+    <string name="settings_sync_now">Sync now</string>
+    <string name="settings_synced">Synced.</string>
+    <string name="settings_sync_failed">Sync failed — will retry automatically.</string>
+    <string name="settings_backend_title">Backend</string>
+    <string name="settings_provider">Transcript provider: %1$s</string>
+    <string name="settings_provider_unknown">unknown</string>
+    <string name="settings_backend_offline">Unreachable (%1$s)</string>
+    <string name="settings_environment">Build: %1$s</string>
+    <string name="settings_about_title">About the pipeline</string>
+    <string name="settings_about_body">The reel link is uploaded to your backend, which runs a transcript provider, OCR, and a Groq summarisation. The transcript, media and frames are deleted as soon as the summary exists — only the summary and the link are kept.</string>
+
+    <!-- ===== Errors ===== -->
+    <string name="error_waiting_for_network">Waiting for network…</string>
+</resources>

@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ---- secrets: never commit -------------------------------------------------
+# .env holds dev config AND would hold any pasted key. The Groq key must live in
+# backend/.env only, so that it is never compiled into the APK.
+/.env
+/backend/.env
+*.jks
+*.keystore
+/google-services.json
+app/google-services.json
+
+# ---- backend --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.sqlite3
+backend/storage/
+
+# ---- Room / build outputs -------------------------------------------------
+app/schemas/build/

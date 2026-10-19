@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  DEBUG BUILDS ONLY. This file shadows res/xml/network_security_config.xml, which
+  still applies to release builds - release stays HTTPS-only.
+
+  Debug is permissive because a developer machine's backend address changes with
+  the network: 10.0.2.2 on an emulator, 127.0.0.1 with `adb reverse`, or the LAN IP
+  (which changes again when the laptop joins a different router). Editing the strict
+  config for each of those is the kind of friction that ends with cleartext HTTP
+  accidentally left on in a release build.
+
+  Permitting cleartext in a build that is never distributed is the smaller risk.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <!-- Debug builds talk to self-signed dev servers too. -->
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
