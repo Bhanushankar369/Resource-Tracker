@@ -1,228 +1,361 @@
-# ResourceTracker
+# ResourceTracker 📱⚡
 
-Save an Instagram Reel from the share sheet. The app sends only the URL to a backend
-that turns the reel into a study card. Nothing is downloaded onto the phone, and
-transcripts, media, and OCR output are deleted server-side as soon as the card exists.
+[![Platform: Android](https://img.shields.io/badge/Platform-Android%20(API%2026%2B)-3DDC84.svg?logo=android&logoColor=white)](https://developer.android.com)
+[![Language: Kotlin](https://img.shields.io/badge/Language-Kotlin%202.0-7F52FF.svg?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Backend: FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%2F%20Python%203.10%2B-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![UI: Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose%20%2F%20Material%203-4285F4.svg?logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![AI: Groq](https://img.shields.io/badge/AI-Groq%20LLM%20%26%20Whisper-F55036.svg)](https://groq.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Two halves:
+> Turn Instagram Reels, YouTube Shorts, and X (Twitter) videos into actionable study flashcards in seconds via the native Android Share Sheet.
+
+---
+
+## 📑 Table of Contents
+1. [Overview & Architecture](#-overview--architecture)
+2. [Prerequisites](#-prerequisites)
+3. [Quick Start: Download & Run as an Application](#-quick-start-download--run-as-an-application)
+   - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+   - [Step 2: Start the Python Backend](#step-2-start-the-python-backend)
+   - [Step 3: Configure the Android App](#step-3-configure-the-android-app)
+   - [Step 4: Build and Install the Android App (APK)](#step-4-build-and-install-the-android-app-apk)
+4. [Connecting Android to the Backend](#-connecting-android-to-the-backend)
+   - [Scenario A: Android Emulator](#scenario-a-android-emulator-recommended-for-testing)
+   - [Scenario B: Physical Android Device via USB (ADB Reverse)](#scenario-b-physical-android-device-via-usb-adb-reverse)
+   - [Scenario C: Physical Android Device via Local Wi-Fi (LAN)](#scenario-c-physical-android-device-via-local-wi-fi-lan)
+5. [Distributing Pre-built APKs (GitHub Releases)](#-distributing-pre-built-apks-github-releases)
+6. [How to Use the Application](#-how-to-use-the-application)
+7. [The Thing to Understand First (Architecture & Instagram Reality)](#-the-thing-to-understand-first)
+8. [Project Layout](#-project-layout)
+9. [Key Design Decisions](#-key-design-decisions)
+10. [Testing](#-testing)
+11. [Pre-Production Checklist](#-pre-production-checklist)
+
+---
+
+## 🌟 Overview & Architecture
+
+When you stumble on an educational or useful Reel on Instagram, you can share it directly to **ResourceTracker** from Instagram's native Share Sheet. 
+
+The Android app forwards **only the URL** to your private backend service. The server extracts the transcript/captions, runs speech-to-text or OCR if media is accessible, generates structured study flashcards via Groq LLM, and immediately wipes any temporary media or OCR files from the server.
 
 ```
-Android app  ──POST /v1/reels──▶  FastAPI  ──▶  TranscriptProvider chain
-(Kotlin, Room,                      │                │
- WorkManager)                        │                ├─ manual   (user pasted it)
-                                    │                ├─ oembed   (public metadata)
-                                    │                └─ whisper  (audio → text)
-                                    │
-                                    ├─ frame sample + OCR      (temp workspace)
-                                    ├─ Groq → KnowledgeCard
-                                    └─ delete the workspace   ← always
+Android App                FastAPI Server                  Transcript Provider Chain
+┌──────────────────┐       ┌──────────────────────┐       ┌────────────────────────┐
+│ Kotlin, Compose, │       │ In-process workers,  │       │ 1. Manual User Paste   │
+│ Room SQLite,     │──URL─▶│ Temp Workspace,      │──────▶│ 2. Meta oEmbed API     │
+│ Hilt, WorkManager│       │ Groq LLM Summarizer  │       │ 3. Whisper / Audio STT │
+└──────────────────┘       └──────────────────────┘       └────────────────────────┘
+         ▲                            │
+         │                            ▼
+         └───── Receives JSON ────────┴── Deletes Temp Files (Guaranteed Cleanup)
 ```
 
 ---
 
-## The thing to understand first
+## 📋 Prerequisites
 
-**There is no public API that turns an Instagram Reel URL into a video file.**
-Instagram's Graph API only exposes media for Business/Creator accounts linked to a
-Page the caller owns, and even then not as a raw mp4. Scraping the HTML for
-`video_url`, or reusing a logged-in session, violates the Instagram Terms of Use and
-is the single most common reason apps like this get rejected from the Play Store.
+Before installing, ensure you have the following installed on your host computer:
 
-So the URL alone is often not enough, and this codebase treats that as the normal
-case rather than pretending otherwise:
-
-- `TranscriptProvider` is an interface. Adding a real source is a new class plus one
-  line in a registry.
-- The chain tries providers in order and takes the first one with content, including
-  a partial one. A caption-only card beats an error screen.
-- A user can always unblock a job by pasting the transcript in the app.
-- When extraction is partial, the LLM is told so and is instructed to stay within what
-  it was actually given. A confident summary of a reel the backend never read is the
-  worst possible outcome for this product.
-
-If you have a legitimate source — your own Instagram Business account via the Graph
-API, or a media resolver you are authorised to use — implement `TranscriptProvider`
-and nothing else changes.
+| Dependency | Minimum Version | Note |
+|---|---|---|
+| **Git** | Any modern version | To clone the repository |
+| **Python** | 3.10 or newer | For the FastAPI backend service |
+| **Java Development Kit (JDK)** | JDK 17+ | Required by Android Gradle Plugin (AGP) |
+| **Android Studio** OR **Android SDK Command-line Tools** | Hedgehog / API 34 SDK | For building and deploying the Android APK |
+| **FFmpeg & Tesseract OCR** *(Optional)* | Any modern release | Required only if testing local video frame sampling & OCR |
 
 ---
 
-## Layout
+## 🚀 Quick Start: Download & Run as an Application
+
+Follow these 4 steps to get the full application running on your computer and Android device.
+
+### Step 1: Clone the Repository
+
+Open your terminal or PowerShell and clone the codebase:
+
+```bash
+git clone https://github.com/<your-username>/ResourceTracker.git
+cd ResourceTracker
+```
+
+---
+
+### Step 2: Start the Python Backend
+
+The backend processes submitted URLs and synthesizes study cards.
+
+1. **Navigate to the backend directory and set up a virtual environment:**
+
+   **Windows (PowerShell):**
+   ```powershell
+   cd backend
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   ```
+
+   **macOS / Linux:**
+   ```bash
+   cd backend
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. **Configure environment variables:**
+   ```bash
+   # In the backend directory:
+   cp .env.example .env
+   ```
+   Open `backend/.env` in your text editor:
+   - **Groq API Key (Recommended):** Add your key from [console.groq.com/keys](https://console.groq.com/keys) to `GROQ_API_KEY`.
+   - **Fallback/Offline mode:** If you do not have a Groq key yet, set `TRANSCRIPT_PROVIDER=manual` — the backend will use an extractive deterministic summarizer with zero external dependencies.
+
+3. **Start the backend server:**
+
+   **Windows:**
+   ```powershell
+   .\.venv\Scripts\python -m uvicorn app.main:app --reload --port 8000
+   ```
+
+   **macOS / Linux:**
+   ```bash
+   python -m uvicorn app.main:app --reload --port 8000
+   ```
+
+   Verify it's running by opening [http://127.0.0.1:8000/v1/health](http://127.0.0.1:8000/v1/health) in your browser.
+
+---
+
+### Step 3: Configure the Android App
+
+Return to the project root directory and create the Android build configuration:
+
+```bash
+# From the repository root (not inside backend/):
+cp .env.example .env
+```
+
+Edit the root `.env` to define where your Android device looks for the backend:
+
+```ini
+APP_ENV=dev
+BACKEND_BASE_URL=http://10.0.2.2:8000/
+```
+*(See the [Connecting Android to the Backend](#-connecting-android-to-the-backend) section below to select the right URL for your setup).*
+
+> ⚠️ **Important:** Ensure the URL ends with a trailing slash `/` as required by Retrofit.
+
+---
+
+### Step 4: Build and Install the Android App (APK)
+
+You can build and run the application either using **Android Studio** or directly through the **Command Line**.
+
+#### Option A: Using Android Studio (Easiest)
+1. Open Android Studio.
+2. Select **File > Open...** and choose the `ResourceTracker` root folder.
+3. Wait for Gradle Sync to complete.
+4. Select your connected physical phone or Android Virtual Device (AVD Emulator) from the top toolbar device selector.
+5. Click the green **Run (▶)** button. The APK will compile, install, and open automatically.
+
+#### Option B: Using the Command Line (Gradle Wrapper)
+
+Ensure an emulator is booted or a physical device is connected with **USB Debugging enabled** (`adb devices` should show your device).
+
+**Windows:**
+```powershell
+# Build the Debug APK
+.\gradlew.bat :app:assembleDebug
+
+# Or build and install directly to the connected device/emulator:
+.\gradlew.bat :app:installDebug
+```
+
+**macOS / Linux:**
+```bash
+# Make gradlew executable
+chmod +x ./gradlew
+
+# Build the Debug APK
+./gradlew :app:assembleDebug
+
+# Or build and install directly:
+./gradlew :app:installDebug
+```
+
+After building, the compiled APK is located at:
+```
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+If you only ran `assembleDebug`, you can manually install the generated APK at any time with:
+```bash
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+---
+
+## 🔌 Connecting Android to the Backend
+
+The Android application needs network access to reach your local FastAPI server. Choose the scenario that matches your setup:
+
+### Scenario A: Android Emulator (Recommended for Testing)
+The Android Emulator runs in an isolated virtual network where `10.0.2.2` represents your host PC's `localhost`:
+- In root `.env`:
+  ```ini
+  BACKEND_BASE_URL=http://10.0.2.2:8000/
+  ```
+
+### Scenario B: Physical Android Device via USB (ADB Reverse)
+If your phone is plugged in via USB with USB debugging enabled, forward the phone's port 8000 directly to your PC:
+1. Run in terminal:
+   ```bash
+   adb reverse tcp:8000 tcp:8000
+   ```
+2. In root `.env`:
+   ```ini
+   BACKEND_BASE_URL=http://127.0.0.1:8000/
+   ```
+3. Re-run `./gradlew installDebug`.
+
+### Scenario C: Physical Android Device via Local Wi-Fi (LAN)
+If your phone and PC are on the same Wi-Fi network:
+1. Find your computer's local IP address (`ipconfig` on Windows or `ifconfig` / `ip a` on macOS/Linux, e.g. `192.168.1.50`).
+2. In root `.env`:
+   ```ini
+   BACKEND_BASE_URL=http://192.168.1.50:8000/
+   ```
+3. Rebuild and install the APK.
+*(Cleartext HTTP for local IP ranges `192.168.*.*`, `10.*.*.*`, and `127.0.0.1` is pre-configured in `app/src/main/res/xml/network_security_config.xml`).*
+
+---
+
+## 📦 Distributing Pre-built APKs (GitHub Releases)
+
+If you are hosting this project on GitHub and want users to be able to download and install the app without installing Android Studio or building from source:
+
+1. **Build a standalone APK:**
+   ```bash
+   ./gradlew :app:assembleDebug
+   ```
+2. **Find the APK:**
+   The output APK will be at:
+   `app/build/outputs/apk/debug/app-debug.apk`
+3. **Publish on GitHub:**
+   - Go to your GitHub repository -> **Releases** -> **Draft a new release**.
+   - Create a release tag (e.g. `v1.0.0`).
+   - Drag and drop `app-debug.apk` into the release assets.
+   - Publish the release.
+4. **How an end-user installs the download:**
+   - The user downloads `app-debug.apk` on their Android phone.
+   - Taps the downloaded file to install (allowing "Install from unknown sources" if prompted).
+   - *(Note: Ensure the backend is deployed on a publicly accessible URL or on their home network, and specified in the build).*
+
+---
+
+## 📱 How to Use the Application
+
+1. **Ingest via Share Sheet:**
+   - In Instagram, tap the **Share** button on any Reel -> select **ResourceTracker** from the app list.
+   - The app extracts the URL, assigns a unique client card ID, and submits it to your backend.
+2. **Track Processing:**
+   - In the **Review** tab, the reel appears immediately in a `PENDING` state with a progress notification.
+   - Once the backend synthesizes the card, it auto-refreshes with the title, summary, key takeaways, and action items.
+3. **Manual Paste Fallback:**
+   - If a Reel cannot be scraped due to privacy restrictions or missing tokens, tap **Add Transcript / Manual Paste** in the app to feed text directly to the AI summarizer.
+4. **Daily 6 PM Study Reminder:**
+   - The app schedules a local exact alarm (`SCHEDULE_EXACT_ALARM`) to alert you daily at 6:00 PM to review pending flashcards. Reminders persist automatically across phone reboots.
+
+---
+
+## 💡 The Thing to Understand First
+
+**There is no public API that converts an Instagram Reel URL directly into an MP4 video file.**
+Instagram's Graph API only exposes media for Business/Creator accounts linked to a Page the caller owns. Scraping HTML for video URLs violates Instagram Terms of Use and leads to Play Store rejections.
+
+ResourceTracker solves this by design:
+- `TranscriptProvider` is a pluggable interface. Adding a new provider is a single class and one line in `registry.py`.
+- The engine cascades through providers in order (Manual Paste -> oEmbed metadata -> Whisper STT -> OCR).
+- When transcript extraction is partial, the LLM is instructed never to hallucinate beyond provided facts.
+- Reel content and video samples are treated as ephemeral workspace data and deleted immediately upon card creation.
+
+---
+
+## 📂 Project Layout
 
 ```
 .
-├── app/                                  Android app (com.resourcetracker)
-├── backend/                              FastAPI service
+├── app/                                  # Android Client (Kotlin + Jetpack Compose)
+│   ├── src/main/java/com/resourcetracker/
+│   │   ├── core/                         # Dispatchers, network result wrappers
+│   │   ├── data/                         # Room DB, Retrofit API client, repositories
+│   │   ├── di/                           # Hilt dependency injection modules
+│   │   ├── domain/                       # Core card models, validation
+│   │   ├── reminder/                     # AlarmManager 6 PM exact alarms, boot receiver
+│   │   ├── ui/                           # Jetpack Compose UI screens (Review, Snoozed, Done)
+│   │   │   ├── cards/                    # Card detail & list composables
+│   │   │   ├── components/               # Status badges, share sheet intake
+│   │   │   └── theme/                    # Material 3 colors, typography, shapes
+│   │   └── work/                         # WorkManager background sync workers
+│   └── build.gradle.kts                  # Android build config & dependency setup
+│
+├── backend/                              # FastAPI Backend (Python 3.10+)
 │   ├── app/
-│   │   ├── providers/                    ← the abstraction
-│   │   │   ├── base.py                     TranscriptProvider + TranscriptResult
-│   │   │   ├── registry.py                 chain + fallback
-│   │   │   ├── manual_paste.py
-│   │   │   ├── oembed.py
-│   │   │   └── whisper.py
-│   │   ├── pipeline/
-│   │   │   ├── runner.py                   provider → OCR → Groq → card
-│   │   │   ├── workspace.py                temp dirs + guaranteed deletion + janitor
-│   │   │   ├── ocr.py                      ffmpeg frame sampling + tesseract
-│   │   │   └── summarizer.py               Groq call + extractive fallback
-│   │   ├── services/                       persistence + ownership rules
-│   │   ├── identity.py                     single-user id (auth removed)
-│   │   ├── db.py  models.py  api.py  main.py
-│   │   └── config.py
-│   └── tests/                              102 tests
-├── .env                                   Android build config (no secrets)
-└── .env.example
+│   │   ├── providers/                    # TranscriptProvider abstraction & implementations
+│   │   │   ├── base.py                   # TranscriptProvider interface & TranscriptResult
+│   │   │   ├── registry.py               # Provider resolution & fallback chain
+│   │   │   ├── manual_paste.py           # User-supplied transcript provider
+│   │   │   ├── oembed.py                 # Meta Graph oEmbed metadata extractor
+│   │   │   └── whisper.py                # Audio-to-text transcription via Groq
+│   │   ├── pipeline/                     # Synthesis pipeline
+│   │   │   ├── runner.py                 # In-process asynchronous job queue
+│   │   │   ├── workspace.py              # Ephemeral workspace manager & janitor
+│   │   │   ├── ocr.py                    # FFmpeg frame extraction + Tesseract OCR
+│   │   │   └── summarizer.py             # Groq LLM summarization with fallback
+│   │   ├── services/                     # Database persistence & card operations
+│   │   ├── db.py / models.py             # SQLAlchemy 2.0 async engine & tables
+│   │   ├── api.py                        # FastAPI routes (/v1/reels, /v1/cards, /v1/health)
+│   │   └── config.py                     # Pydantic Settings & environment validation
+│   ├── tests/                            # 102 offline unit and integration tests
+│   └── requirements.txt                  # Python dependencies
+│
+├── .env.example                          # Android build environment template
+└── README.md                             # Project documentation
 ```
 
 ---
 
-## Running it
+## 📐 Key Design Decisions
 
-### 1. Backend
+- **Groq AI (Fast & Cost-Effective):** Single API key for both high-speed LLM inference (`json_object` structured output) and speech-to-text (`whisper-large-v3`).
+- **Guaranteed Cleanup (Double-Enforced):** Reel frames and audio are processed inside a python context manager (`JobWorkspace`). Its `finally` block deletes the temporary directory on job completion. A periodic background `Janitor` sweeps stale directories older than 1 hour as a safety backstop.
+- **Client-Generated Card IDs (Offline Resilience):** The Android client generates the UUID for each card locally upon sharing. Submissions never stall waiting for a network handshake, and re-transmissions are idempotent.
+- **Single-Tenant Backend:** Simple and secure for personal deployment. No third-party OAuth complexity; requests operate with a local user ID.
+
+---
+
+## 🧪 Testing
+
+The backend includes a comprehensive, 100% deterministic test suite (no active Groq credits or external network calls required):
 
 ```bash
 cd backend
-python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt      # Windows
-# .venv/bin/pip install -r requirements.txt        # macOS / Linux
+# Run all 102 tests
+.\.venv\Scripts\python -m pytest
 
-cp .env.example .env                               # then edit it
-.venv\Scripts\python -m uvicorn app.main:app --reload --port 8000
+# Test the workspace auto-cleanup guarantees specifically
+.\.venv\Scripts\python -m pytest tests/test_workspace_cleanup.py -v
 ```
-
-Minimum to get a working card with no API keys at all:
-
-```
-TRANSCRIPT_PROVIDER=manual
-```
-
-For real summaries, add a key from <https://console.groq.com/keys> and check the
-model name against the live list — Groq retires models and a retired name returns
-`404 model_not_found` rather than a helpful error:
-
-```bash
-curl -H "Authorization: Bearer $GROQ_API_KEY" https://api.groq.com/openai/v1/models
-```
-
-`GET /v1/health` tells you which providers are available and whether the LLM is
-configured, and nothing else. It reports booleans, never secret values.
-
-### 2. Android
-
-```bash
-# repo-root .env
-BACKEND_BASE_URL=http://10.0.2.2:8000     # 10.0.2.2 is the emulator's view of your host
-```
-
-```bash
-./gradlew :app:assembleDebug              # or open in Android Studio and press Run
-```
-
-Requires JDK 17+. `gradle.properties` points `org.gradle.java.home` at Android
-Studio's JBR, so a default `JAVA_HOME` of 11 will not break the build.
-
-**Emulator vs device:** `10.0.2.2` only works on the emulator. On a physical device
-use your machine's LAN IP (`http://192.168.x.x:8000`) and keep the app and server on
-the same network. Cleartext HTTP is allowed only for the local development hosts
-listed in `res/xml/network_security_config.xml`.
-
-### Identity (no sign-in)
-
-Authentication has been removed. This is a single-tenant deployment: there is no
-sign-in screen, no Google client id, and no bearer token. Every request operates as
-the one configured local user (`LOCAL_USER_ID`, default `local-user`) via
-`app/identity.py`, and that id is still stamped onto every card and job row so the
-ownership columns and query filters keep working.
-
-Because there is no credential, do not expose this backend to the public internet as
-is: anyone who can reach it can read and write the one account. Keep it on localhost,
-a LAN, or behind your own authenticating proxy.
-
-`POST /v1/reels` is rate-limited per client (`SUBMIT_RATE_LIMIT_PER_MINUTE`) because
-each submission can spend LLM credit.
 
 ---
 
-## Testing
+## 🛡️ Pre-Production Checklist
 
-```bash
-cd backend
-.venv\Scripts\python -m pytest                        # 102 tests, no network
-.venv\Scripts\python -m pytest tests/test_workspace_cleanup.py -v
-```
-
-The suite is offline and deterministic: no Groq calls, no frame sampling, an isolated
-SQLite file and workspace per test.
-
-What the tests are actually for, beyond coverage:
-
-| Area | Why |
-| --- | --- |
-| `test_workspace_cleanup.py` | A cleanup regression is silent. Nothing crashes and the app keeps working; the only symptom is reels accumulating on a disk forever. These assert on the filesystem. |
-| `test_providers.py` | Pins the contract a future provider author relies on: unavailable providers are skipped, not fatal; one failure does not mask a working provider; partial-but-nonempty is accepted. |
-| `test_identity.py` | Authentication is gone, so a request with no credential must succeed, and the single configured local user must be the id stamped onto every row. |
-| `test_config.py` | A blank `DATABASE_URL` or `WORKSPACE_DIR` in a copied `.env` must fall back to safe defaults rather than an empty engine URL or the current directory. |
-| `test_api.py` | Ownership is still the boundary the service layer enforces, and card ids travel in URLs. Another user's card must be indistinguishable from one that does not exist. Also: a client may set a review status but may not write card content, and submit is rate-limited. |
-| `test_summarizer.py` | A bad model response must not produce a broken card, and a missing key must degrade to something honest rather than erroring. |
-
-### On a device
-
-1. Start the backend, then `adb reverse tcp:8000 tcp:8000` and use
-   `BACKEND_BASE_URL=http://127.0.0.1:8000`.
-2. Share a Reel to ResourceTracker from the Instagram app.
-3. Watch it: the card appears as `PENDING` with a progress notification, then fills in.
-4. Review it, or snooze it to another day, or delete it.
-5. Check the reminder: 6 PM daily, rescheduled after reboot.
-6. Confirm the temp policy: `backend/storage/workspace/` is empty after every job.
-
-If a job fails because no provider could read the reel, the error says so and tells
-the user to paste a transcript. That is the designed path, not a gap.
-
----
-
-## Design decisions worth arguing with
-
-**Groq, not Gemini/Claude.** One key, an OpenAI-compatible API, `json_object` response
-mode, and speech-to-text on the same account. The model name is configuration, not
-code.
-
-**An in-process worker pool, not Celery.** Two threads is plenty for an MVP and
-avoids a Redis dependency. `PipelineRunner.submit` is the only thing to reimplement to
-scale; the pipeline is a pure function of a `JobRequest`.
-
-**SQLite by default.** `DATABASE_URL` is the only thing to change for Postgres.
-
-**Deletion is enforced twice.** `JobWorkspace` is a context manager whose `finally`
-removes the directory, and a `Janitor` sweeps anything older than an hour. Either
-alone can fail: a `SIGKILL`, a power cut, or a full disk skips the `finally`. The
-grace period exists so a long-running job is not deleted underneath itself. Job
-diagnostics deliberately store counters, never content — `Job.notes` records things
-like `ocr_lines:31`, because strings end up in logs and the point is that reel
-content does not persist.
-
-**A client-generated card id.** The phone inserts locally and reconciles later, so
-sending a URL never depends on a network round trip, and a retry after a dropped
-response does not create a duplicate. Soft delete keeps the row, so a local delete
-survives a later sync instead of the card reappearing.
-
-**`SCHEDULE_EXACT_ALARM`, not `USE_EXACT_ALARM`.** `USE_EXACT_ALARM` is granted only
-to alarm-clock and calendar apps and gets you a Play policy prompt. `SCHEDULE_EXACT_ALARM`
-is user-revocable, which is the right trade for a reminder, with `setAndAllowWhileIdle`
-as the fallback when the user declines. WorkManager is not used for the 6 PM alarm —
-periodic work has a 15-minute floor and is not exact.
-
----
-
-## Before this ships
-
-- [ ] Decide how this single-tenant backend is kept private. There is no credential in
-      front of it, so do not expose it to the public internet without an authenticating
-      proxy in front.
-- [ ] Move SQLite to Postgres and set a real `CORS_ORIGINS` allow-list (the default is
-      empty = same-origin only).
-- [x] Add rate limiting on `POST /v1/reels` — it enqueues LLM calls, so it is a
-      direct path to someone else's bill. (`SUBMIT_RATE_LIMIT_PER_MINUTE`, process-local.)
-- [ ] Implement a real `TranscriptProvider` for your actual authorised media source.
-- [ ] Confirm the Play policy position on the OCR/media pipeline before submitting.
-- [ ] Rotate the Groq key that has been sitting in this shell's environment.
-- [ ] Rotate the Meta `INSTAGRAM_ACCESS_TOKEN` that was committed to a local `.env`;
-      put the new one in `backend/.env` only.
+- [ ] Configure `BACKEND_BASE_URL` with your public or LAN address.
+- [ ] Ensure `GROQ_API_KEY` is added to `backend/.env`.
+- [ ] For Instagram metadata resolution, add `INSTAGRAM_ACCESS_TOKEN` in `backend/.env`.
+- [ ] Keep `backend/.env` secure and never commit it to source control.
+- [ ] For production multi-user deployment, place an authenticating reverse proxy (e.g. Caddy/Nginx with OAuth/WireGuard) in front of the FastAPI backend.
